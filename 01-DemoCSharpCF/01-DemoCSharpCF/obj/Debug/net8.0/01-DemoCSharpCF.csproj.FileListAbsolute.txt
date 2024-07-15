@@ -1,0 +1,14 @@
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\bin\Debug\net8.0\01-DemoCSharpCF.exe
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\bin\Debug\net8.0\01-DemoCSharpCF.deps.json
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\bin\Debug\net8.0\01-DemoCSharpCF.runtimeconfig.json
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\bin\Debug\net8.0\01-DemoCSharpCF.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\bin\Debug\net8.0\01-DemoCSharpCF.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\refint\01-DemoCSharpCF.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\01-DemoCSharpCF.genruntimeconfig.cache
+C:\Users\Miguel\Desktop\practicas-csharp\01-DemoCSharpCF\01-DemoCSharpCF\obj\Debug\net8.0\ref\01-DemoCSharpCF.dll

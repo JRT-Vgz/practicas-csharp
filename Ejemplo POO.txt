@@ -1,0 +1,10 @@
+
+Se desea un sistema de pedidos. El CLIENTE tendrá la opción de registrarse, ver la lista de PRODUCTOS que se venden y poderlos 
+agregar a un PEDIDO. Al terminar, el cliente puede enviar su pedido para ser procesado. El sistema debe permitir administrar los datos
+de los productos con opciones de agregar, modificar y eliminar del catálogo. Los productos deben especificar 2 precios: público y 
+mayoreo y si tienen los impuestos Iva y Ieps. También se debe administrar los clientes, especificando qué tipo de precio manejan.
+
+
+
+
+
