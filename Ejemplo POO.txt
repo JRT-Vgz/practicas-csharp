@@ -5,6 +5,6 @@ de los productos con opciones de agregar, modificar y eliminar del catálogo. Lo
 mayoreo y si tienen los impuestos Iva y Ieps. También se debe administrar los clientes, especificando qué tipo de precio manejan.
 
  
-
+  
 
 
