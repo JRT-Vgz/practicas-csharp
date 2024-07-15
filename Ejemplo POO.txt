@@ -4,7 +4,7 @@ agregar a un PEDIDO. Al terminar, el cliente puede enviar su pedido para ser pro
 de los productos con opciones de agregar, modificar y eliminar del catálogo. Los productos deben especificar 2 precios: público y 
 mayoreo y si tienen los impuestos Iva y Ieps. También se debe administrar los clientes, especificando qué tipo de precio manejan.
 
-
+ 
 
 
 
