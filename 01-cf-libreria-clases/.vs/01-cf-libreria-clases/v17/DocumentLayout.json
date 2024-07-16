@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE5DC00-E042-4FB2-AB7B-6D60779F1A5B}|libClientes\\libClientes.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-libreria-clases\\libclientes\\clsclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE5DC00-E042-4FB2-AB7B-6D60779F1A5B}|libClientes\\libClientes.csproj|solutionrelative:libclientes\\clsclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3035706-7AE5-48FD-BA0C-BD470BC15335}|01-cf-libreria-clases\\01-cf-libreria-clases.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-libreria-clases\\01-cf-libreria-clases\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3035706-7AE5-48FD-BA0C-BD470BC15335}|01-cf-libreria-clases\\01-cf-libreria-clases.csproj|solutionrelative:01-cf-libreria-clases\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE5DC00-E042-4FB2-AB7B-6D60779F1A5B}|libClientes\\libClientes.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-libreria-clases\\libclientes\\clspersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE5DC00-E042-4FB2-AB7B-6D60779F1A5B}|libClientes\\libClientes.csproj|solutionrelative:libclientes\\clspersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\libClientes\\clsClientes.cs",
+              "RelativeDocumentMoniker": "libClientes\\clsClientes.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\libClientes\\clsClientes.cs",
+              "RelativeToolTip": "libClientes\\clsClientes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:42:50.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\libClientes\\clsPersonas.cs",
+              "RelativeDocumentMoniker": "libClientes\\clsPersonas.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\libClientes\\clsPersonas.cs",
+              "RelativeToolTip": "libClientes\\clsPersonas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:35:34.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\01-cf-libreria-clases\\Program.cs",
+              "RelativeDocumentMoniker": "01-cf-libreria-clases\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-libreria-clases\\01-cf-libreria-clases\\Program.cs",
+              "RelativeToolTip": "01-cf-libreria-clases\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:34:01.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
