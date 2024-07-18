@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-cf-app-pedidos", "01-cf-app-pedidos\01-cf-app-pedidos.csproj", "{C99197C5-A8C7-4E79-A3C7-9A3766377AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libPedidos", "libPedidos\libPedidos.csproj", "{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99197C5-A8C7-4E79-A3C7-9A3766377AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99197C5-A8C7-4E79-A3C7-9A3766377AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99197C5-A8C7-4E79-A3C7-9A3766377AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99197C5-A8C7-4E79-A3C7-9A3766377AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A37AB064-0AA0-44E9-A3A9-4637824B209A}
+	EndGlobalSection
+EndGlobal

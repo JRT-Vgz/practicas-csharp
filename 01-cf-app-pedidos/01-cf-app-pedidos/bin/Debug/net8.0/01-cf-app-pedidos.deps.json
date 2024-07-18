@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "01-cf-app-pedidos/1.0.0": {
+        "dependencies": {
+          "libPedidos": "1.0.0"
+        },
+        "runtime": {
+          "01-cf-app-pedidos.dll": {}
+        }
+      },
+      "libPedidos/1.0.0": {
+        "runtime": {
+          "libPedidos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "01-cf-app-pedidos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libPedidos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

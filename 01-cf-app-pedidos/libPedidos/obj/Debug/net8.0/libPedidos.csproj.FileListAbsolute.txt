@@ -1,0 +1,12 @@
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\bin\Debug\net8.0\libPedidos.deps.json
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\bin\Debug\net8.0\libPedidos.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\bin\Debug\net8.0\libPedidos.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.sourcelink.json
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\refint\libPedidos.dll
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\libPedidos.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\libPedidos\obj\Debug\net8.0\ref\libPedidos.dll
