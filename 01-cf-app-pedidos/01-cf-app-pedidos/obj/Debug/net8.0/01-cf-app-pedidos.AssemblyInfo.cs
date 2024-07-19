@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01-cf-app-pedidos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcc393af4e84d960346278cc4714ba36cbcfa125")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+868a55ed455cd02ee541324db35bcdc284efe887")]
 [assembly: System.Reflection.AssemblyProductAttribute("01-cf-app-pedidos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01-cf-app-pedidos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 public record class recProductos
 {
-    public int idProducto { get; set; }
-    public string Descripcion { get; set; }
-    public string CodigoBarras { get; set; }
+    public int idProducto { get; init; }
+    public string Descripcion { get; init; }
+    public string CodigoBarras { get; init; }
 
     public recProductos(int id, string descripcion, string codigobarras)
     {

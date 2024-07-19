@@ -1,11 +1,22 @@
 ﻿
-int[,] matriz = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+using System.ComponentModel.Design;
 
-for (int i = 0; i < matriz.GetLength(0); i++)
+Dictionary<int, string> Dict = new Dictionary<int, string>();
+
+Dict.Add(1, "uno");
+Dict.Add(2, "dos");
+Dict.Add(3, "tres");
+
+foreach (string item in Dict.Values)
 {
-    for (int j = 0; j < matriz.GetLength(1); j++)
-    {
-        Console.Write(matriz[i, j]);
-    }
+    Console.WriteLine(item);
 }
 
+
+foreach (string item in Dict.Values)
+{
+    Console.WriteLine(item);
+}
+
+
+Console.WriteLine(Dict.Keys[2]);

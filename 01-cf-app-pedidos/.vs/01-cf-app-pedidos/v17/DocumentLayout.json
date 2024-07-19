@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|solutionrelative:01-cf-app-pedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\funcionesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|solutionrelative:01-cf-app-pedidos\\funcionesprincipales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\libpedidos\\clsrepositoriomemproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|solutionrelative:libpedidos\\clsrepositoriomemproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\libpedidos\\ctrobtenproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|solutionrelative:libpedidos\\ctrobtenproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\libpedidos\\registros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\libpedidos\\clsproductosprecios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8813F1C2-F24B-45B6-908A-5AF8C46C4A5B}|libPedidos\\libPedidos.csproj|solutionrelative:libpedidos\\clsproductosprecios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99197C5-A8C7-4E79-A3C7-9A3766377AED}|01-cf-app-pedidos\\01-cf-app-pedidos.csproj|solutionrelative:01-cf-app-pedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "clsRepositorioMemProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\clsRepositorioMemProductos.cs",
+              "RelativeDocumentMoniker": "libPedidos\\clsRepositorioMemProductos.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\clsRepositorioMemProductos.cs",
+              "RelativeToolTip": "libPedidos\\clsRepositorioMemProductos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T14:38:15.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Registros.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\Registros.cs",
               "RelativeDocumentMoniker": "libPedidos\\Registros.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\Registros.cs",
               "RelativeToolTip": "libPedidos\\Registros.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA5wA4AAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T14:08:37.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CalculoPrecios.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\CalculoPrecios.cs",
               "RelativeDocumentMoniker": "libPedidos\\CalculoPrecios.cs",
@@ -55,12 +76,11 @@
               "RelativeToolTip": "libPedidos\\CalculoPrecios.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:27:13.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T10:27:13.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "clsProductosPrecios.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\clsProductosPrecios.cs",
               "RelativeDocumentMoniker": "libPedidos\\clsProductosPrecios.cs",
@@ -68,33 +88,45 @@
               "RelativeToolTip": "libPedidos\\clsProductosPrecios.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:19:07.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T10:19:07.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FuncionesPrincipales.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\FuncionesPrincipales.cs",
               "RelativeDocumentMoniker": "01-cf-app-pedidos\\FuncionesPrincipales.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\FuncionesPrincipales.cs",
               "RelativeToolTip": "01-cf-app-pedidos\\FuncionesPrincipales.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAxwHUAAAAzAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwKwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T15:30:47.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\Program.cs",
               "RelativeDocumentMoniker": "01-cf-app-pedidos\\Program.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\01-cf-app-pedidos\\Program.cs",
               "RelativeToolTip": "01-cf-app-pedidos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T15:22:34.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctrObtenProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\ctrObtenProductos.cs",
+              "RelativeDocumentMoniker": "libPedidos\\ctrObtenProductos.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\01-cf-app-pedidos\\libPedidos\\ctrObtenProductos.cs",
+              "RelativeToolTip": "libPedidos\\ctrObtenProductos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T14:51:18.523Z",
               "EditorCaption": ""
             }
           ]

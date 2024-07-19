@@ -121,5 +121,85 @@ namespace _01_cf_app_pedidos
             Console.WriteLine("############################################################################################\n");
         }
         #endregion
+
+        public static void EjemploColeccionesClientes()
+        { 
+            List<clsClientes> Clientes = new List<clsClientes>();
+            int opcion = 0;
+            do
+            {
+                Console.WriteLine("--- OPCIONES DE LA LISTA DE CLIENTES ---");
+                Console.WriteLine("1. Agregar cliente.");
+                Console.WriteLine("2. Mostrar lista.");
+                Console.WriteLine("3. Eliminar cliente.");
+                Console.WriteLine("20. Salir");
+                opcion = Convert.ToInt32(Console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine("AÑADIR UN CLIENTE.");
+                        clsClientes cliente = new clsClientes();
+                        Console.WriteLine("Escribe el ID del cliente.");
+                        cliente.idCliente = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Escribe el nombre completo del client.");
+                        cliente.NombreCompleto = Console.ReadLine();
+                        Console.WriteLine("Escribe el Rfc del cliente.");
+                        cliente.Rfc = Console.ReadLine();
+                        Clientes.Add(cliente);
+                        break;
+                    case 2:
+                        foreach (clsClientes item in Clientes)
+                        {
+                            Console.WriteLine(item.ToString());
+                        }
+                        break;
+                    case 3:
+                        Console.WriteLine("ELIMINAR UN CLIENTE.");
+                        Console.WriteLine("Escribe la posicion en la lista.");
+                        int posicion = Convert.ToInt32(Console.ReadLine());
+                        Clientes.RemoveAt(posicion);
+                        break;
+                    default:
+                        break;
+                }
+
+            } while (opcion != 20);
+        }
+
+        public static void EjemploDiccionario()
+        {
+            ctrObtenProductos cProductos = new ctrObtenProductos();
+            cProductos.ObtenProductos();
+            int opcion = 0;
+            do
+            {
+                Console.WriteLine("--- OPCIONES DEL DICCIONARIO DE PRODUCTOS ---");
+                Console.WriteLine("1. Ver la lista de productos.");
+                Console.WriteLine("2. Buscar un producto por código de barras.");
+                Console.WriteLine("20. Salir");
+                opcion = Convert.ToInt32(Console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                        foreach (recProductos item in cProductos.Productos.Values)
+                        {
+                            Console.WriteLine(item.ToString());
+                        }
+                        break;
+                    case 2:
+                        Console.WriteLine("Escribe el codigo de barras del producto.");
+                        string codigoBarras = Console.ReadLine();
+                        recProductos producto;
+                        if (cProductos.ObtenProducto(codigoBarras, out producto))
+                            Console.WriteLine($"El valor encontrado es: {producto.ToString()}");
+                        else
+                            Console.WriteLine("No se ha encontrado el producto");
+                        break;
+                    default:
+                        break;
+                }
+
+            } while (opcion != 20);
+        }
     }
 }
