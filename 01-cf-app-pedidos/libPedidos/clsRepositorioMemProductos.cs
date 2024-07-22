@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace libPedidos
 {
-    public class clsRepositorioMemProductos
+    public class clsRepositorioMemProductos: intRepositorioProductos
     {
         #region Propiedades
         #endregion

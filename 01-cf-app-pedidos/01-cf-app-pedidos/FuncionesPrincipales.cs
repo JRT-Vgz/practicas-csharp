@@ -168,7 +168,9 @@ namespace _01_cf_app_pedidos
 
         public static void EjemploDiccionario()
         {
-            ctrObtenProductos cProductos = new ctrObtenProductos();
+            //clsRepositorioMemProductos repoMProductos = new clsRepositorioMemProductos();
+            clsRepositorioArchivoProductos repoArchProductos = new clsRepositorioArchivoProductos(@"C:\Users\Miguel\Desktop\practicas-csharp\01-cf-app-pedidos\01-cf-app-pedidos\Archivos\Productos.txt");
+            ctrObtenProductos cProductos = new ctrObtenProductos(repoArchProductos);
             cProductos.ObtenProductos();
             int opcion = 0;
             do
