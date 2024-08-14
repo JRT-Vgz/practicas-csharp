@@ -1,0 +1,12 @@
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\bin\Debug\net8.0\DB.deps.json
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\bin\Debug\net8.0\DB.dll
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\bin\Debug\net8.0\DB.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.sourcelink.json
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.dll
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\refint\DB.dll
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\DB.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\hl-practicando\DB\obj\Debug\net8.0\ref\DB.dll

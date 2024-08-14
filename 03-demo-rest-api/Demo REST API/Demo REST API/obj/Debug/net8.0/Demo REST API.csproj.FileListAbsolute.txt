@@ -1,0 +1,33 @@
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\appsettings.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Demo REST API.exe
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Demo REST API.deps.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Demo REST API.runtimeconfig.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Demo REST API.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Demo REST API.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.csproj.AssemblyReference.cache
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.sourcelink.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets\msbuild.Demo REST API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets\msbuild.build.Demo REST API.props
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Demo REST API.props
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Demo REST API.props
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\scopedcss\bundle\Demo REST API.styles.css
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo RES.ECD9422C.Up2Date
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\refint\Demo REST API.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\Demo REST API.genruntimeconfig.cache
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\obj\Debug\net8.0\ref\Demo REST API.dll
