@@ -1,9 +1,25 @@
+using Demo_REST_API.Models;
 using Demo_REST_API.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSingleton<IPeopleService, PeopleService>();
+builder.Services.AddScoped<IPostsService, PostsService>();
+
+// HttpClient servicio jsonplaceholder
+builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["BaseURLPosts"]);
+});
+
+// Entity Framework
+builder.Services.AddDbContext<BarContext>(options =>
+{
+    options.UseMySQL(builder.Configuration.GetConnectionString("BarConnection"));
+});
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

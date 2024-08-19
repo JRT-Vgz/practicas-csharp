@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hl-practicando")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c73ee1f052cb19ffc6826770ebcb929709cab7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e82d1dea07bc5b2439ba508a46e704c77f04836")]
 [assembly: System.Reflection.AssemblyProductAttribute("hl-practicando")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hl-practicando")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
