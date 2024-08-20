@@ -1,5 +1,8 @@
+using Demo_REST_API.DTOs;
 using Demo_REST_API.Models;
 using Demo_REST_API.Services;
+using Demo_REST_API.Validators;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +22,10 @@ builder.Services.AddDbContext<BarContext>(options =>
 {
     options.UseMySQL(builder.Configuration.GetConnectionString("BarConnection"));
 });
+
+// Validators
+builder.Services.AddScoped<IValidator<BeerInsertDto>, BeerInsertValidator>();
+builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
 
 
 builder.Services.AddControllers();
