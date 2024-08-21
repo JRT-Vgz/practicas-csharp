@@ -1,5 +1,6 @@
 using Demo_REST_API.DTOs;
 using Demo_REST_API.Models;
+using Demo_REST_API.Repository;
 using Demo_REST_API.Services;
 using Demo_REST_API.Validators;
 using FluentValidation;
@@ -10,12 +11,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddSingleton<IPeopleService, PeopleService>();
 builder.Services.AddScoped<IPostsService, PostsService>();
+builder.Services.AddKeyedScoped<ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>, BeerService>("BeerService");
 
 // HttpClient servicio jsonplaceholder
 builder.Services.AddHttpClient<IPostsService, PostsService>(c =>
 {
     c.BaseAddress = new Uri(builder.Configuration["BaseURLPosts"]);
 });
+
+// Repository
+builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
 
 // Entity Framework
 builder.Services.AddDbContext<BarContext>(options =>

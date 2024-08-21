@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,56 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BeerUpdateValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Validators\\BeerUpdateValidator.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Validators\\BeerUpdateValidator.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Validators\\BeerUpdateValidator.cs",
-              "RelativeToolTip": "Demo REST API\\Validators\\BeerUpdateValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Demo REST API\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T15:32:10.257Z",
+              "WhenOpened": "2024-08-21T15:56:38.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "BeerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Repository\\BeerRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
+              "RelativeToolTip": "Demo REST API\\Repository\\BeerRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:49:39.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeerService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Services\\BeerService.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Services\\BeerService.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Services\\BeerService.cs",
+              "RelativeToolTip": "Demo REST API\\Services\\BeerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:34:04.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Program.cs",
               "RelativeDocumentMoniker": "Demo REST API\\Program.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Program.cs",
               "RelativeToolTip": "Demo REST API\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T14:51:28.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BeerInsertValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Validators\\BeerInsertValidator.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Validators\\BeerInsertValidator.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Validators\\BeerInsertValidator.cs",
-              "RelativeToolTip": "Demo REST API\\Validators\\BeerInsertValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:38:16.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BeerController.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
               "RelativeDocumentMoniker": "Demo REST API\\Controllers\\BeerController.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
               "RelativeToolTip": "Demo REST API\\Controllers\\BeerController.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAAG8AAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T10:16:57.872Z",
               "EditorCaption": ""
