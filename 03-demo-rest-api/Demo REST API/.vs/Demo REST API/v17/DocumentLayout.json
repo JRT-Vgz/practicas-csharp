@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,28 +34,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Demo REST API\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:56:38.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BeerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
               "RelativeDocumentMoniker": "Demo REST API\\Repository\\BeerRepository.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
               "RelativeToolTip": "Demo REST API\\Repository\\BeerRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwBwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:49:39.519Z",
+              "WhenOpened": "2024-08-22T16:06:06.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeerController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Controllers\\BeerController.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
+              "RelativeToolTip": "Demo REST API\\Controllers\\BeerController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAEMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:59:35.461Z",
               "EditorCaption": ""
             },
             {
@@ -66,10 +66,22 @@
               "RelativeDocumentMoniker": "Demo REST API\\Services\\BeerService.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Services\\BeerService.cs",
               "RelativeToolTip": "Demo REST API\\Services\\BeerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T10:34:04.155Z",
+              "WhenOpened": "2024-08-22T09:56:53.461Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Automappers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Automappers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Automappers\\MappingProfile.cs",
+              "RelativeToolTip": "Demo REST API\\Automappers\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:43:49.363Z"
             },
             {
               "$type": "Document",
@@ -79,23 +91,9 @@
               "RelativeDocumentMoniker": "Demo REST API\\Program.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Program.cs",
               "RelativeToolTip": "Demo REST API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:51:28.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeerController.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Controllers\\BeerController.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
-              "RelativeToolTip": "Demo REST API\\Controllers\\BeerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T10:16:57.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T14:51:28.762Z"
             }
           ]
         }

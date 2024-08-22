@@ -120,3 +120,5 @@ C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo RES
 C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Miguel\Desktop\practicas-csharp\03-demo-rest-api\Demo REST API\Demo REST API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

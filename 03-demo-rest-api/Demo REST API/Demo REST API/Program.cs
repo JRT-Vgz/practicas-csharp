@@ -1,3 +1,4 @@
+using Demo_REST_API.Automappers;
 using Demo_REST_API.DTOs;
 using Demo_REST_API.Models;
 using Demo_REST_API.Repository;
@@ -32,6 +33,8 @@ builder.Services.AddDbContext<BarContext>(options =>
 builder.Services.AddScoped<IValidator<BeerInsertDto>, BeerInsertValidator>();
 builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
 
+//Mappers
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -46,6 +46,11 @@ namespace Demo_REST_API.Controllers
                 return BadRequest(validationResult.Errors);
             }
 
+            if (!_beerService.Validate(beerInsertDto))
+            {
+                return BadRequest(_beerService.Errors);
+            }
+
             var beerDto = await _beerService.Add(beerInsertDto);
 
             return CreatedAtAction(nameof(GetById), new { id = beerDto.Id }, beerDto);
@@ -55,7 +60,15 @@ namespace Demo_REST_API.Controllers
         public async Task<ActionResult<BeerDto>> Update(BeerUpdateDto beerUpdateDto, int id)
         {
             var validationResult = await _beerUpdateValidator.ValidateAsync(beerUpdateDto);
-            if (!validationResult.IsValid) { return BadRequest(validationResult.Errors); }
+            if (!validationResult.IsValid) 
+            {
+                return BadRequest(validationResult.Errors); 
+            }
+
+            if (!_beerService.Validate(beerUpdateDto))
+            {
+                return BadRequest(_beerService.Errors);
+            }
 
             var beerDto = await _beerService.Update(beerUpdateDto, id);
 

@@ -1,4 +1,5 @@
-﻿using Demo_REST_API.DTOs;
+﻿using AutoMapper;
+using Demo_REST_API.DTOs;
 using Demo_REST_API.Models;
 using Demo_REST_API.Repository;
 using Demo_REST_API.Validators;
@@ -10,22 +11,22 @@ namespace Demo_REST_API.Services
     public class BeerService : ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>
     {
         private IRepository<Beer> _beerRepository;
-        public BeerService(IRepository<Beer> beerRepository)
+        private IMapper _mapper;
+        public List<string> Errors { get; }
+        public BeerService(IRepository<Beer> beerRepository,
+            IMapper mapper)
         {
             _beerRepository = beerRepository;
+            _mapper = mapper;
+            Errors = new List<string>();
+
         }
 
         public async Task<IEnumerable<BeerDto>> GetAll() 
         {
             var beers = await _beerRepository.Get();
 
-            return beers.Select(b => new BeerDto
-            {
-                Id = b.BeerID,
-                Name = b.Name,
-                Alcohol = b.Alcohol,
-                BrandID = b.BrandID
-            });
+            return beers.Select(b => _mapper.Map<BeerDto>(b));
         }
 
 
@@ -38,35 +39,18 @@ namespace Demo_REST_API.Services
                 return null;
             }
 
-            var beerDto = new BeerDto()
-            {
-                Id = id,
-                Name = beer.Name,
-                Alcohol = beer.Alcohol,
-                BrandID = beer.BrandID,
-            };
+            var beerDto = _mapper.Map<BeerDto>(beer);
 
             return beerDto;
         }
         public async Task<BeerDto> Add(BeerInsertDto beerInsertDto)
         {
-            var beer = new Beer()
-            {
-                Name = beerInsertDto.Name,
-                BrandID = beerInsertDto.BrandID,
-                Alcohol = beerInsertDto.Alcohol
-            };
+            var beer = _mapper.Map<Beer>(beerInsertDto);
 
             await _beerRepository.Add(beer);
             await _beerRepository.Save();
 
-            var beerDto = new BeerDto()
-            {
-                Id = beer.BeerID,
-                Name = beerInsertDto.Name,
-                BrandID = beerInsertDto.BrandID,
-                Alcohol = beerInsertDto.Alcohol
-            };
+            var beerDto = _mapper.Map<BeerDto>(beer);
 
             return beerDto;
         }
@@ -80,20 +64,12 @@ namespace Demo_REST_API.Services
                 return null;
             }
 
-            beer.Name = beerUpdateDto.Name;
-            beer.Alcohol = beerUpdateDto.Alcohol;
-            beer.BrandID = beerUpdateDto.BrandID;
+            beer = _mapper.Map<BeerUpdateDto, Beer>(beerUpdateDto, beer);
 
             _beerRepository.Update(beer);
             await _beerRepository.Save();
 
-            var beerDto = new BeerDto()
-            {
-                Id = beer.BeerID,
-                Name = beer.Name,
-                BrandID = beer.BrandID,
-                Alcohol = beer.Alcohol
-            };
+            var beerDto = _mapper.Map<BeerDto>(beer);
 
             return beerDto;
         }
@@ -109,15 +85,28 @@ namespace Demo_REST_API.Services
             _beerRepository.Delete(beer);
             await _beerRepository.Save();
 
-            var beerDto = new BeerDto()
-            {
-                Id = beer.BeerID,
-                Name = beer.Name,
-                BrandID = beer.BrandID,
-                Alcohol = beer.Alcohol
-            };
+            var beerDto = _mapper.Map<BeerDto>(beer);
 
             return beerDto;
+        }
+        public bool Validate(BeerInsertDto beerInsertDto)
+        {
+            if (_beerRepository.Search(b => b.Name == beerInsertDto.Name).Count() > 0)
+            {
+                Errors.Add("No puede existir una cerveza con un nombre ya existente");
+                return false;
+            }
+            return true;
+        }
+        public bool Validate(BeerUpdateDto beerUpdateDto)
+        {
+            if (_beerRepository.Search(b => b.Name == beerUpdateDto.Name 
+            && beerUpdateDto.Id != b.BeerID).Count() > 0)
+            {
+                Errors.Add("No puede existir una cerveza con un nombre ya existente");
+                return false;
+            }
+            return true;
         }
     }
 }
