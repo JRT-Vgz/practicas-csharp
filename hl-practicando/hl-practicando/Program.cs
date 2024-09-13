@@ -12,11 +12,8 @@ using System.Text.Json;
 using System.Xml;
 
 
-Console.WriteLine(Ola());
-bool Ola()
-{
-    string cosa = "olas";
+string ola = @"ola\""nola";
 
-    return cosa == "ola" ? true : false;
-}
+Console.WriteLine(ola);
+
 
