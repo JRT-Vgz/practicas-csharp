@@ -47,6 +47,11 @@ namespace Test_API_1.Controllers
                 return BadRequest(validationResult.Errors); 
             }
 
+            if (!_bandsService.Validate(bandInsertDto))
+            {
+                return BadRequest(_bandsService.Errors);
+            }
+
             var bandDto = await _bandsService.Insert(bandInsertDto);
 
             return CreatedAtAction(nameof(GetById), new { id = bandDto.BandID }, bandDto);
@@ -60,6 +65,11 @@ namespace Test_API_1.Controllers
             if (!validationResult.IsValid)
             { 
                 return BadRequest(validationResult.Errors); 
+            }
+
+            if (!_bandsService.Validate(bandUpdateDto))
+            {
+                return BadRequest(_bandsService.Errors);
             }
 
             var bandDto = await _bandsService.Update(bandUpdateDto, id);

@@ -1,102 +1,105 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Test_API_1.DTOs;
 using Test_API_1.Models;
+using Test_API_1.Repository;
 
 namespace Test_API_1.Services
 {
     public class BandsService : IBandsService
     {
-        private MetalContext _metalContext;
-        public BandsService(MetalContext metalContext) 
+        private IBandRepository _bandRepository;
+        private IMapper _mapper;
+        public List<string> Errors { get; }
+
+        public BandsService(IBandRepository bandRepository,
+            IMapper mapper) 
         {
-            _metalContext = metalContext;
+            _bandRepository = bandRepository;
+            _mapper = mapper;
+            Errors = new List<string>();
         }
 
-        public async Task<IEnumerable<BandDto>> Get() =>
-            await _metalContext.Bands.Select(b => new BandDto()
-            {
-                BandID = b.BandID,
-                Name = b.Name,
-                StyleID = b.StyleID
-            }).ToListAsync();
+        public async Task<IEnumerable<BandDto>> Get()
+        {
+            var bands = await _bandRepository.Get();
+
+            return bands.Select(b => _mapper.Map<BandDto>(b));
+        }
 
         public async Task<BandDto> GetById(int id)
         {
-            var band = await _metalContext.Bands.FindAsync(id);
+            var band = await _bandRepository.GetById(id);
 
             if (band == null)
             {
                 return null;
             }
 
-            var bandDto = new BandDto()
-            {
-                BandID = band.BandID,
-                Name = band.Name,
-                StyleID = band.StyleID
-            };
+            var bandDto = _mapper.Map<BandDto>(band);
 
             return bandDto;
         }
 
         public async Task<BandDto> Insert(BandInsertDto bandInsertDto)
         {
-            var band = new Band()
-            {
-                Name = bandInsertDto.Name,
-                StyleID = bandInsertDto.StyleID
-            };
+            var band = _mapper.Map<Band>(bandInsertDto);
 
-            await _metalContext.Bands.AddAsync(band);
-            await _metalContext.SaveChangesAsync();
+            await _bandRepository.Insert(band);
+            await _bandRepository.Save();
 
-            var bandDto = new BandDto()
-            {
-                BandID = band.BandID,
-                Name = band.Name,
-                StyleID = band.StyleID
-            };
+            var bandDto = _mapper.Map<BandDto>(band);
 
             return bandDto;
         }
 
         public async Task<BandDto> Update(BandUpdateDto bandUpdateDto, int id)
         {
-            var band = await _metalContext.Bands.FindAsync(id);
+            var band = await _bandRepository.GetById(id);
 
             if (band == null) { return null; }
 
-            band.Name = bandUpdateDto.Name;
-            band.StyleID = bandUpdateDto.StyleID;
+            band = _mapper.Map<BandUpdateDto, Band>(bandUpdateDto, band);
 
-            await _metalContext.SaveChangesAsync();
+            _bandRepository.Update(band);
+            await _bandRepository.Save();
 
-            var bandDto = new BandDto()
-            {
-                BandID = band.BandID,
-                Name = band.Name,
-                StyleID = band.StyleID
-            };
+            var bandDto = _mapper.Map<BandDto>(band);
 
             return bandDto;
         }
         public async Task<BandDto> Delete(int id)
         {
-            var band = await _metalContext.Bands.FindAsync(id);
+            var band = await _bandRepository.GetById(id);
 
             if (band == null) { return null; }
 
-            _metalContext.Bands.Remove(band);
-            await _metalContext.SaveChangesAsync();
+            _bandRepository.Delete(band);
+            await _bandRepository.Save();
 
-            var bandDto = new BandDto()
-            {
-                BandID = band.BandID,
-                Name = band.Name,
-                StyleID = band.StyleID
-            };
+            var bandDto = _mapper.Map<BandDto>(band);
 
             return bandDto;
+        }
+
+        public bool Validate(BandInsertDto bandInsertDto)
+        {
+            if (bandInsertDto.Name == "Manowar")
+            {
+                Errors.Add("Manowar no es metal de verdad.");
+                return false;
+            }
+            return true;
+        }
+
+        public bool Validate(BandUpdateDto bandUpdateDto)
+        {
+            if (bandUpdateDto.Name == "Manowar")
+            {
+                Errors.Add("Manowar no es metal de verdad.");
+                return false;
+            }
+            return true;
         }
     }
 }

@@ -1,7 +1,9 @@
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using Test_API_1.Automappers;
 using Test_API_1.DTOs;
 using Test_API_1.Models;
+using Test_API_1.Repository;
 using Test_API_1.Services;
 using Test_API_1.Validators;
 
@@ -19,9 +21,16 @@ builder.Services.AddDbContext<MetalContext>(options =>
 });
 
 
+// Repository
+builder.Services.AddScoped<IBandRepository, BandRepository>();
+
+
 // Validators
 builder.Services.AddScoped<IValidator<BandInsertDto>, BandInsertValidator>();
 builder.Services.AddScoped<IValidator<BandUpdateDto>, BandUpdateValidator>();
+
+//Mappers
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
 builder.Services.AddControllers();

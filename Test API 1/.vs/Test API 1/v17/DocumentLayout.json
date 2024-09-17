@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\test api 1\\test api 1\\services\\bandsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|solutionrelative:test api 1\\services\\bandsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\test api 1\\test api 1\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|solutionrelative:test api 1\\controllers\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\test api 1\\test api 1\\repository\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08BE3CB-417A-4008-9B8E-C61313BCFFFE}|Test API 1\\Test API 1.csproj|solutionrelative:test api 1\\repository\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BandsController.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Controllers\\BandsController.cs",
-              "RelativeDocumentMoniker": "Test API 1\\Controllers\\BandsController.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Controllers\\BandsController.cs",
-              "RelativeToolTip": "Test API 1\\Controllers\\BandsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T14:15:53.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BandsService.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Services\\BandsService.cs",
-              "RelativeDocumentMoniker": "Test API 1\\Services\\BandsService.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Services\\BandsService.cs",
-              "RelativeToolTip": "Test API 1\\Services\\BandsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAhAAAA",
+              "Title": "BandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Repository\\BandRepository.cs",
+              "RelativeDocumentMoniker": "Test API 1\\Repository\\BandRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\Test API 1\\Test API 1\\Repository\\BandRepository.cs",
+              "RelativeToolTip": "Test API 1\\Repository\\BandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:20:12.011Z",
+              "WhenOpened": "2024-09-17T14:10:35.295Z",
               "EditorCaption": ""
             }
           ]
