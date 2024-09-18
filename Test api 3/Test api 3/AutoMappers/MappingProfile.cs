@@ -9,8 +9,6 @@ namespace Test_api_3.AutoMappers
         public MappingProfile() 
         {
             CreateMap<Band, BandDto>();
-            CreateMap<BandInsertDto, Band>();
-            CreateMap<BandUpdateDto, Band>();
         }
     }
 }

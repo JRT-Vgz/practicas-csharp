@@ -40,6 +40,8 @@ namespace Test_api_3.Services
             await _bandsRepository.Add(band);
             await _bandsRepository.Save();
 
+            band = await _bandsRepository.GetById(band.BandID);
+
             var bandDto = _mapper.Map<BandDto>(band);
 
             return bandDto;

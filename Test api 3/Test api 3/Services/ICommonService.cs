@@ -1,4 +1,6 @@
-﻿namespace Test_api_3.Services
+﻿using Test_api_3.Models;
+
+namespace Test_api_3.Services
 {
     public interface ICommonService<TDto, TDtoInsert, TDtoUpdate>
     {

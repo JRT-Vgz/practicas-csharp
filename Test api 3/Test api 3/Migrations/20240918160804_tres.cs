@@ -6,7 +6,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Test_api_3.Migrations
 {
     /// <inheritdoc />
-    public partial class InitDB : Migration
+    public partial class tres : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,7 +20,7 @@ namespace Test_api_3.Migrations
                 {
                     StyleID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(type: "longtext", nullable: false)
+                    StyleName = table.Column<string>(type: "longtext", nullable: false)
                 },
                 constraints: table =>
                 {

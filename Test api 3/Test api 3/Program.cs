@@ -24,6 +24,7 @@ builder.Services.AddScoped<IRepository<Band>, BandsRepository>();
 
 //Mappers
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(MappingProfile2));
 
 //Validators
 builder.Services.AddScoped<IValidator<BandInsertDto>, BandInsertValidator>();

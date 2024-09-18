@@ -4,6 +4,6 @@
     {
         public int BandID { get; set; }
         public string Name { get; set; }
-        public int StyleID { get; set; }
+        public string StyleName { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Test_api_3.Models;
+//using System.Data.Entity;
 
 namespace Test_api_3.Repository
 {
@@ -12,12 +13,16 @@ namespace Test_api_3.Repository
         }
 
         public async Task<IEnumerable<Band>> GetAll() =>
-            await _bandsContext.Bands.ToListAsync();
+            await _bandsContext.Bands.Include(p => p.Style).ToListAsync();
 
         public async Task<Band> GetById(int id) =>
-            await _bandsContext.Bands.FindAsync(id);
-        public async Task Add(Band band) =>
+            await _bandsContext.Bands.Include(p => p.Style).FirstOrDefaultAsync(b => b.BandID == id);
+
+        public async Task Add(Band band)
+        {
             await _bandsContext.Bands.AddAsync(band);
+
+        }
         public void Update(Band band)
         {
             _bandsContext.Bands.Attach(band);

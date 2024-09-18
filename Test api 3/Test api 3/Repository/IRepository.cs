@@ -1,4 +1,6 @@
-﻿namespace Test_api_3.Repository
+﻿using Test_api_3.Models;
+
+namespace Test_api_3.Repository
 {
     public interface IRepository<TEntity>
     {

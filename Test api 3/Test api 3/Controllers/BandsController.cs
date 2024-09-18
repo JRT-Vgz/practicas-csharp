@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Test_api_3.DTOs;
+using Test_api_3.Models;
 using Test_api_3.Services;
 using Test_api_3.Validators;
 
