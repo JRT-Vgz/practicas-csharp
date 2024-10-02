@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_3_InterfaceAdapters_Data</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1-EnterpriseLayer\1-EnterpriseLayer.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Models\3-InterfaceAdapters-Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5134DAA-1D57-42B6-946B-3A397E60E554}|3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5134DAA-1D57-42B6-946B-3A397E60E554}|3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj|solutionrelative:3-interfaceadapters-repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|solutionrelative:4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\getbeerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\getbeerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-models\\beermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|solutionrelative:3-interfaceadapters-models\\beermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4584C6-941F-4CCC-B6C2-123921E93B4E}|3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4584C6-941F-4CCC-B6C2-123921E93B4E}|3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj|solutionrelative:3-interfaceadapters-data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-API\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeToolTip": "4-FrameworksDrivers-API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:34:27.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetBeerUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetBeerUseCase.cs",
+              "RelativeDocumentMoniker": "2-ApplicationLayer\\GetBeerUseCase.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetBeerUseCase.cs",
+              "RelativeToolTip": "2-ApplicationLayer\\GetBeerUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:28:43.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "3-InterfaceAdapters-Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\Repository.cs",
+              "RelativeToolTip": "3-InterfaceAdapters-Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:27:49.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IRepository.cs",
+              "RelativeDocumentMoniker": "2-ApplicationLayer\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IRepository.cs",
+              "RelativeToolTip": "2-ApplicationLayer\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:25:00.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "3-InterfaceAdapters-Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\AppDbContext.cs",
+              "RelativeToolTip": "3-InterfaceAdapters-Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:21:58.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeerModel.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\BeerModel.cs",
+              "RelativeDocumentMoniker": "3-InterfaceAdapters-Models\\BeerModel.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\BeerModel.cs",
+              "RelativeToolTip": "3-InterfaceAdapters-Models\\BeerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:19:10.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\bin\Debug\net8.0\3-InterfaceAdapters-Models.deps.json
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\bin\Debug\net8.0\3-InterfaceAdapters-Models.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\bin\Debug\net8.0\3-InterfaceAdapters-Models.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.sourcelink.json
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\refint\3-InterfaceAdapters-Models.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\3-InterfaceAdapters-Models.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\3-InterfaceAdapters-Models\obj\Debug\net8.0\ref\3-InterfaceAdapters-Models.dll
