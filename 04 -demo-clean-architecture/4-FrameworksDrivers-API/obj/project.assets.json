@@ -870,6 +870,20 @@
           "bin/placeholder/3-InterfaceAdapters-Data.dll": {}
         }
       },
+      "3-InterfaceAdapters-Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/3-InterfaceAdapters-Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-InterfaceAdapters-Mappers.dll": {}
+        }
+      },
       "3-InterfaceAdapters-Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -878,6 +892,20 @@
         },
         "runtime": {
           "bin/placeholder/3-InterfaceAdapters-Models.dll": {}
+        }
+      },
+      "3-InterfaceAdapters-Presenters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/3-InterfaceAdapters-Presenters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-InterfaceAdapters-Presenters.dll": {}
         }
       },
       "3-InterfaceAdapters-Repository/1.0.0": {
@@ -2790,10 +2818,20 @@
       "path": "../3-InterfaceAdapters-Data/3-InterfaceAdapters-Data.csproj",
       "msbuildProject": "../3-InterfaceAdapters-Data/3-InterfaceAdapters-Data.csproj"
     },
+    "3-InterfaceAdapters-Mappers/1.0.0": {
+      "type": "project",
+      "path": "../3-InterfaceAdapters-Mappers/3-InterfaceAdapters-Mappers.csproj",
+      "msbuildProject": "../3-InterfaceAdapters-Mappers/3-InterfaceAdapters-Mappers.csproj"
+    },
     "3-InterfaceAdapters-Models/1.0.0": {
       "type": "project",
       "path": "../3-InterfaceAdapters-Models/3-InterfaceAdapters-Models.csproj",
       "msbuildProject": "../3-InterfaceAdapters-Models/3-InterfaceAdapters-Models.csproj"
+    },
+    "3-InterfaceAdapters-Presenters/1.0.0": {
+      "type": "project",
+      "path": "../3-InterfaceAdapters-Presenters/3-InterfaceAdapters-Presenters.csproj",
+      "msbuildProject": "../3-InterfaceAdapters-Presenters/3-InterfaceAdapters-Presenters.csproj"
     },
     "3-InterfaceAdapters-Repository/1.0.0": {
       "type": "project",
@@ -2806,7 +2844,9 @@
       "1-EnterpriseLayer >= 1.0.0",
       "2-ApplicationLayer >= 1.0.0",
       "3-InterfaceAdapters-Data >= 1.0.0",
+      "3-InterfaceAdapters-Mappers >= 1.0.0",
       "3-InterfaceAdapters-Models >= 1.0.0",
+      "3-InterfaceAdapters-Presenters >= 1.0.0",
       "3-InterfaceAdapters-Repository >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -2849,8 +2889,14 @@
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj"
             },
+            "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj": {
+              "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj"
+            },
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj"
+            },
+            "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Presenters\\3-InterfaceAdapters-Presenters.csproj": {
+              "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Presenters\\3-InterfaceAdapters-Presenters.csproj"
             },
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj"

@@ -11,7 +11,9 @@
           "1-EnterpriseLayer": "1.0.0",
           "2-ApplicationLayer": "1.0.0",
           "3-InterfaceAdapters-Data": "1.0.0",
+          "3-InterfaceAdapters-Mappers": "1.0.0",
           "3-InterfaceAdapters-Models": "1.0.0",
+          "3-InterfaceAdapters-Presenters": "1.0.0",
           "3-InterfaceAdapters-Repository": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.8",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -410,9 +412,27 @@
           "3-InterfaceAdapters-Data.dll": {}
         }
       },
+      "3-InterfaceAdapters-Mappers/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "runtime": {
+          "3-InterfaceAdapters-Mappers.dll": {}
+        }
+      },
       "3-InterfaceAdapters-Models/1.0.0": {
         "runtime": {
           "3-InterfaceAdapters-Models.dll": {}
+        }
+      },
+      "3-InterfaceAdapters-Presenters/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "runtime": {
+          "3-InterfaceAdapters-Presenters.dll": {}
         }
       },
       "3-InterfaceAdapters-Repository/1.0.0": {
@@ -798,7 +818,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "3-InterfaceAdapters-Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "3-InterfaceAdapters-Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "3-InterfaceAdapters-Presenters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

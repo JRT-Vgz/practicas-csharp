@@ -63,3 +63,7 @@ C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-Framework
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Models.dll
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Models.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Presenters.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Presenters.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Mappers.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Mappers.pdb

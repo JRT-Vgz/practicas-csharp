@@ -1,7 +1,10 @@
 using _1_EnterpriseLayer;
 using _2_ApplicationLayer;
 using _3_InterfaceAdapters_Data;
+using _3_InterfaceAdapters_Mappers;
+using _3_InterfaceAdapters_Mappers.Dtos.Requests;
 using _3_InterfaceAdapters_Models;
+using _3_InterfaceAdapters_Presenters;
 using _3_InterfaceAdapters_Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +18,13 @@ builder.Services.AddSwaggerGen();
 
 // Dependencias
 builder.Services.AddScoped<IRepository<Beer>, Repository>();
-builder.Services.AddScoped<GetBeerUseCase<Beer>>();
+builder.Services.AddScoped<IPresenter<Beer, BeerViewModel>, BeerPresenter>();
+builder.Services.AddScoped<IMapper<BeerRequestDto, Beer>, BeerMapper>();
+
+builder.Services.AddScoped<GetBeerUseCase<Beer, BeerViewModel>>();
+builder.Services.AddScoped<AddBeerUseCase<BeerRequestDto>>();
+
+
 // Entity Framework
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
@@ -35,11 +44,19 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/beer", async (GetBeerUseCase<Beer> beerUseCase) =>
+app.MapGet("/beer", async (GetBeerUseCase<Beer, BeerViewModel> beerUseCase) =>
 {
     return await beerUseCase.GetAllAsync();
 })
 .WithName("beers")
+.WithOpenApi();
+
+app.MapPost("/beer", async (BeerRequestDto beerRequestDto, AddBeerUseCase<BeerRequestDto> beerUseCase) =>
+{
+    await beerUseCase.AddAsync(beerRequestDto);
+    return Results.Created();
+})
+.WithName("addBeer")
 .WithOpenApi();
 
 app.Run();

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace _2_ApplicationLayer
 {
-    public interface IRepository<TModel>
+    public interface IRepository<TEntity>
     {
-        Task<IEnumerable<TModel>> GetAllAsync();
-        Task<TModel> GetByIdAsync(int id);
-        Task AddAsync(Beer beer);
+        Task<IEnumerable<TEntity>> GetAllAsync();
+        Task<TEntity> GetByIdAsync(int id);
+        Task AddAsync(TEntity beer);
     }
 }

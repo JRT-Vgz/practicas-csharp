@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "3-InterfaceAdapters-Presenters/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "runtime": {
+          "3-InterfaceAdapters-Presenters.dll": {}
+        }
+      },
+      "1-EnterpriseLayer/1.0.0": {
+        "runtime": {
+          "1-EnterpriseLayer.dll": {}
+        }
+      },
+      "2-ApplicationLayer/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0"
+        },
+        "runtime": {
+          "2-ApplicationLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "3-InterfaceAdapters-Presenters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "1-EnterpriseLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "2-ApplicationLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
