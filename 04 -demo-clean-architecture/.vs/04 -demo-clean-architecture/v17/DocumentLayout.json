@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\getpostusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\getpostusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|solutionrelative:4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\iexternalserviceadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\iexternalserviceadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|solutionrelative:4-frameworksdrivers-consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-consola\\4-frameworksdrivers-consola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|solutionrelative:4-frameworksdrivers-consola\\4-frameworksdrivers-consola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|solutionrelative:4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CC6B44-7366-4FDE-AF35-FD8739D26936}|4-FrameworksDrivers-ExternalService\\4-FrameworksDrivers-ExternalService.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-externalservice\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CC6B44-7366-4FDE-AF35-FD8739D26936}|4-FrameworksDrivers-ExternalService\\4-FrameworksDrivers-ExternalService.csproj|solutionrelative:4-frameworksdrivers-externalservice\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetPostUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetPostUseCase.cs",
-              "RelativeDocumentMoniker": "2-ApplicationLayer\\GetPostUseCase.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetPostUseCase.cs",
-              "RelativeToolTip": "2-ApplicationLayer\\GetPostUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:11:32.178Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\appsettings.json",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-Consola\\appsettings.json",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\appsettings.json",
+              "RelativeToolTip": "4-FrameworksDrivers-Consola\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T14:17:09.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "4-FrameworksDrivers-Consola",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj",
+              "RelativeToolTip": "4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-05T14:15:05.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IExternalServiceAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IExternalServiceAdapter.cs",
-              "RelativeDocumentMoniker": "2-ApplicationLayer\\IExternalServiceAdapter.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IExternalServiceAdapter.cs",
-              "RelativeToolTip": "2-ApplicationLayer\\IExternalServiceAdapter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\Program.cs",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-Consola\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\Program.cs",
+              "RelativeToolTip": "4-FrameworksDrivers-Consola\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:04:33.991Z",
+              "WhenOpened": "2024-10-05T14:07:35.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-API\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeToolTip": "4-FrameworksDrivers-API\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:38:59.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-ExternalService\\PostService.cs",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-ExternalService\\PostService.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-ExternalService\\PostService.cs",
+              "RelativeToolTip": "4-FrameworksDrivers-ExternalService\\PostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:18:48.837Z",
               "EditorCaption": ""
             }
           ]

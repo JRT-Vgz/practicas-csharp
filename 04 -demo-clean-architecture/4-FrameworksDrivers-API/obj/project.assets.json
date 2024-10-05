@@ -905,6 +905,20 @@
           "bin/placeholder/2-ApplicationLayer.dll": {}
         }
       },
+      "3-InterfaceAdapters-Adapters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/3-InterfaceAdapters-Adapters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-InterfaceAdapters-Adapters.dll": {}
+        }
+      },
       "3-InterfaceAdapters-Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -971,6 +985,21 @@
         },
         "runtime": {
           "bin/placeholder/3-InterfaceAdapters-Repository.dll": {}
+        }
+      },
+      "4-FrameworksDrivers-ExternalService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0",
+          "3-InterfaceAdapters-Adapters": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/4-FrameworksDrivers-ExternalService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/4-FrameworksDrivers-ExternalService.dll": {}
         }
       }
     }
@@ -2924,6 +2953,11 @@
       "path": "../2-ApplicationLayer/2-ApplicationLayer.csproj",
       "msbuildProject": "../2-ApplicationLayer/2-ApplicationLayer.csproj"
     },
+    "3-InterfaceAdapters-Adapters/1.0.0": {
+      "type": "project",
+      "path": "../3-InterfaceAdapters-Adapters/3-InterfaceAdapters-Adapters.csproj",
+      "msbuildProject": "../3-InterfaceAdapters-Adapters/3-InterfaceAdapters-Adapters.csproj"
+    },
     "3-InterfaceAdapters-Data/1.0.0": {
       "type": "project",
       "path": "../3-InterfaceAdapters-Data/3-InterfaceAdapters-Data.csproj",
@@ -2948,17 +2982,24 @@
       "type": "project",
       "path": "../3-InterfaceAdapters-Repository/3-InterfaceAdapters-Repository.csproj",
       "msbuildProject": "../3-InterfaceAdapters-Repository/3-InterfaceAdapters-Repository.csproj"
+    },
+    "4-FrameworksDrivers-ExternalService/1.0.0": {
+      "type": "project",
+      "path": "../4-FrameworksDrivers-ExternalService/4-FrameworksDrivers-ExternalService.csproj",
+      "msbuildProject": "../4-FrameworksDrivers-ExternalService/4-FrameworksDrivers-ExternalService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "1-EnterpriseLayer >= 1.0.0",
       "2-ApplicationLayer >= 1.0.0",
+      "3-InterfaceAdapters-Adapters >= 1.0.0",
       "3-InterfaceAdapters-Data >= 1.0.0",
       "3-InterfaceAdapters-Mappers >= 1.0.0",
       "3-InterfaceAdapters-Models >= 1.0.0",
       "3-InterfaceAdapters-Presenters >= 1.0.0",
       "3-InterfaceAdapters-Repository >= 1.0.0",
+      "4-FrameworksDrivers-ExternalService >= 1.0.0",
       "FluentValidation >= 11.10.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
@@ -2999,6 +3040,9 @@
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\2-ApplicationLayer.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\2-ApplicationLayer.csproj"
             },
+            "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Adapters\\3-InterfaceAdapters-Adapters.csproj": {
+              "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Adapters\\3-InterfaceAdapters-Adapters.csproj"
+            },
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj"
             },
@@ -3013,6 +3057,9 @@
             },
             "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj": {
               "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj"
+            },
+            "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-ExternalService\\4-FrameworksDrivers-ExternalService.csproj": {
+              "projectPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-ExternalService\\4-FrameworksDrivers-ExternalService.csproj"
             }
           }
         }

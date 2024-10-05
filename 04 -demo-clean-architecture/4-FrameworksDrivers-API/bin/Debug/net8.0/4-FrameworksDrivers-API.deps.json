@@ -10,11 +10,13 @@
         "dependencies": {
           "1-EnterpriseLayer": "1.0.0",
           "2-ApplicationLayer": "1.0.0",
+          "3-InterfaceAdapters-Adapters": "1.0.0",
           "3-InterfaceAdapters-Data": "1.0.0",
           "3-InterfaceAdapters-Mappers": "1.0.0",
           "3-InterfaceAdapters-Models": "1.0.0",
           "3-InterfaceAdapters-Presenters": "1.0.0",
           "3-InterfaceAdapters-Repository": "1.0.0",
+          "4-FrameworksDrivers-ExternalService": "1.0.0",
           "FluentValidation": "11.10.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.8",
@@ -436,6 +438,15 @@
           "2-ApplicationLayer.dll": {}
         }
       },
+      "3-InterfaceAdapters-Adapters/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0"
+        },
+        "runtime": {
+          "3-InterfaceAdapters-Adapters.dll": {}
+        }
+      },
       "3-InterfaceAdapters-Data/1.0.0": {
         "dependencies": {
           "1-EnterpriseLayer": "1.0.0",
@@ -477,6 +488,16 @@
         },
         "runtime": {
           "3-InterfaceAdapters-Repository.dll": {}
+        }
+      },
+      "4-FrameworksDrivers-ExternalService/1.0.0": {
+        "dependencies": {
+          "1-EnterpriseLayer": "1.0.0",
+          "2-ApplicationLayer": "1.0.0",
+          "3-InterfaceAdapters-Adapters": "1.0.0"
+        },
+        "runtime": {
+          "4-FrameworksDrivers-ExternalService.dll": {}
         }
       }
     }
@@ -868,6 +889,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "3-InterfaceAdapters-Adapters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "3-InterfaceAdapters-Data/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -889,6 +915,11 @@
       "sha512": ""
     },
     "3-InterfaceAdapters-Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "4-FrameworksDrivers-ExternalService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -17,11 +17,13 @@
   <ItemGroup>
     <ProjectReference Include="..\1-EnterpriseLayer\1-EnterpriseLayer.csproj" />
     <ProjectReference Include="..\2-ApplicationLayer\2-ApplicationLayer.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Adapters\3-InterfaceAdapters-Adapters.csproj" />
     <ProjectReference Include="..\3-InterfaceAdapters-Data\3-InterfaceAdapters-Data.csproj" />
     <ProjectReference Include="..\3-InterfaceAdapters-Mappers\3-InterfaceAdapters-Mappers.csproj" />
     <ProjectReference Include="..\3-InterfaceAdapters-Models\3-InterfaceAdapters-Models.csproj" />
     <ProjectReference Include="..\3-InterfaceAdapters-Presenters\3-InterfaceAdapters-Presenters.csproj" />
     <ProjectReference Include="..\3-InterfaceAdapters-Repository\3-InterfaceAdapters-Repository.csproj" />
+    <ProjectReference Include="..\4-FrameworksDrivers-ExternalService\4-FrameworksDrivers-ExternalService.csproj" />
   </ItemGroup>
 
 </Project>

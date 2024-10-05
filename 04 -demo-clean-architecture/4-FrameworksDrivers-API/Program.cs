@@ -1,5 +1,7 @@
 using _1_EnterpriseLayer;
 using _2_ApplicationLayer;
+using _3_InterfaceAdapters_Adapters;
+using _3_InterfaceAdapters_Adapters.Dtos;
 using _3_InterfaceAdapters_Data;
 using _3_InterfaceAdapters_Mappers;
 using _3_InterfaceAdapters_Mappers.Dtos.Requests;
@@ -8,6 +10,7 @@ using _3_InterfaceAdapters_Presenters;
 using _3_InterfaceAdapters_Repository;
 using _4_FrameworksDrivers_API.Middlewares;
 using _4_FrameworksDrivers_API.Validators;
+using _4_FrameworksDrivers_ExternalService;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
@@ -28,11 +31,14 @@ builder.Services.AddScoped<IRepository<Beer>, Repository>();
 builder.Services.AddScoped<IPresenter<Beer, BeerViewModel>, BeerPresenter>();
 builder.Services.AddScoped<IPresenter<Beer, BeerDetailViewModel>, BeerDetailPresenter>();
 builder.Services.AddScoped<IMapper<BeerRequestDto, Beer>, BeerMapper>();
+builder.Services.AddScoped<IExternalServiceAdapter<Post>, PostExternalServiceAdapter>();
+builder.Services.AddScoped<IExternalService<PostServiceDto>, PostService>();
 
 // Use Cases
 builder.Services.AddScoped<GetBeerUseCase<Beer, BeerViewModel>>();
 builder.Services.AddScoped<GetBeerUseCase<Beer, BeerDetailViewModel>>();
 builder.Services.AddScoped<AddBeerUseCase<BeerRequestDto>>();
+builder.Services.AddScoped<GetPostUseCase>();
 
 // Entity Framework
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -45,6 +51,11 @@ builder.Services.AddValidatorsFromAssemblyContaining<BeerValidator>();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddFluentValidationClientsideAdapters();
 
+// Http Client
+builder.Services.AddHttpClient<IExternalService<PostServiceDto>, PostService> (c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["BaseUrlPosts"]);
+});
 
 var app = builder.Build();
 
@@ -61,6 +72,9 @@ app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionMiddleware>();
 
 
+// ENDPOINTS //
+
+// BEER GET ALL
 app.MapGet("/beer", async (GetBeerUseCase<Beer, BeerViewModel> beerUseCase) =>
 {
     return await beerUseCase.GetAllAsync();
@@ -68,7 +82,7 @@ app.MapGet("/beer", async (GetBeerUseCase<Beer, BeerViewModel> beerUseCase) =>
 .WithName("beers")
 .WithOpenApi();
 
-
+// BEER POST
 app.MapPost("/beer", async (BeerRequestDto beerRequestDto, 
     AddBeerUseCase<BeerRequestDto> beerUseCase,
     IValidator<BeerRequestDto> validator) =>
@@ -82,7 +96,7 @@ app.MapPost("/beer", async (BeerRequestDto beerRequestDto,
 .WithName("addBeer")
 .WithOpenApi();
 
-
+// BEER DETAIL
 app.MapGet("/beerDetail", async (GetBeerUseCase<Beer, BeerDetailViewModel> beerUseCase) =>
 {
     return await beerUseCase.GetAllAsync();
@@ -90,7 +104,13 @@ app.MapGet("/beerDetail", async (GetBeerUseCase<Beer, BeerDetailViewModel> beerU
 .WithName("beerDetail")
 .WithOpenApi();
 
-
+// EXTERNAL SERVICE: GET ALL POST
+app.MapGet("/posts", async (GetPostUseCase postUseCase) =>
+{
+    return await postUseCase.GetAllAsync();
+})
+.WithName("posts")
+.WithOpenApi();
 
 
 app.Run();

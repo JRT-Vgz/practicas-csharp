@@ -70,3 +70,7 @@ C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-Framework
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Adapters.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\4-FrameworksDrivers-ExternalService.dll
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\3-InterfaceAdapters-Adapters.pdb
+C:\Users\Miguel\Desktop\practicas-csharp\04 -demo-clean-architecture\4-FrameworksDrivers-API\bin\Debug\net8.0\4-FrameworksDrivers-ExternalService.pdb
