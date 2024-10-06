@@ -25,4 +25,13 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\1-EnterpriseLayer\1-EnterpriseLayer.csproj" />
+    <ProjectReference Include="..\2-ApplicationLayer\2-ApplicationLayer.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Data\3-InterfaceAdapters-Data.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Models\3-InterfaceAdapters-Models.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Presenters\3-InterfaceAdapters-Presenters.csproj" />
+    <ProjectReference Include="..\3-InterfaceAdapters-Repository\3-InterfaceAdapters-Repository.csproj" />
+  </ItemGroup>
+
 </Project>

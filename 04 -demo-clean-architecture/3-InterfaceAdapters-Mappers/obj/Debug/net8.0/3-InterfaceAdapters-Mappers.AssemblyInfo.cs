@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3-InterfaceAdapters-Mappers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea836f2a170f3863a950b4e5c5274fd162babf2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7658caa0311003c039f6735bd6f467f206b0113")]
 [assembly: System.Reflection.AssemblyProductAttribute("3-InterfaceAdapters-Mappers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3-InterfaceAdapters-Mappers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

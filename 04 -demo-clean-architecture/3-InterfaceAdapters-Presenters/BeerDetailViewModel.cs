@@ -8,18 +8,12 @@ namespace _3_InterfaceAdapters_Presenters
 {
     public class BeerDetailViewModel
     {
-        #region Propiedades
-        #endregion
         public int Id { get; set; }
         public string Name { get; set; }
         public string Alcohol { get; set; }
         public string Color { get; set; }
         public string Style { get; set; }
         public string Message { get; set; }
-        #region Constructor
-        #endregion
 
-        #region Metodos
-        #endregion
     }
 }

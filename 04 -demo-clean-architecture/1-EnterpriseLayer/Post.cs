@@ -8,16 +8,10 @@ namespace _1_EnterpriseLayer
 {
     public class Post
     {
-        #region Propiedades
-        #endregion
         public int Id { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
 
-        #region Constructor
-        #endregion
 
-        #region Metodos
-        #endregion
     }
 }

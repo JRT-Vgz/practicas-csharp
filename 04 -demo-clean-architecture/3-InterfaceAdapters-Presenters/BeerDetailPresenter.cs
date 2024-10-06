@@ -10,14 +10,6 @@ namespace _3_InterfaceAdapters_Presenters
 {
     public class BeerDetailPresenter : IPresenter<Beer, BeerDetailViewModel>
     {
-        #region Propiedades
-        #endregion
-
-        #region Constructor
-        #endregion
-
-        #region Metodos
-        #endregion
         public IEnumerable<BeerDetailViewModel> Present(IEnumerable<Beer> beers) 
             => beers.Select(b => new BeerDetailViewModel
             {

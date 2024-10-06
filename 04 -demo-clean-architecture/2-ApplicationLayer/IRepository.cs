@@ -11,6 +11,6 @@ namespace _2_ApplicationLayer
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task<TEntity> GetByIdAsync(int id);
-        Task AddAsync(TEntity beer);
+        Task AddAsync(TEntity entity);
     }
 }
