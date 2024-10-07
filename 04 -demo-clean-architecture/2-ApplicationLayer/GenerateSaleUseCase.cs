@@ -20,7 +20,7 @@ namespace _2_ApplicationLayer
 
         public async Task ExecuteAsync(TDto saleDto)
         {
-            var sale =  _mapper.Map(saleDto);
+            var sale = _mapper.Map(saleDto);
             
             // Reglas de negocio
             if (sale.Concepts.Count == 0)
