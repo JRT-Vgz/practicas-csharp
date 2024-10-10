@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|solutionrelative:4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|solutionrelative:4-frameworksdrivers-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34AE6371-8D29-4523-BB15-23976C23D03A}|4-FrameworksDrivers-Consola\\4-FrameworksDrivers-Consola.csproj|solutionrelative:4-frameworksdrivers-consola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-Consola\\appsettings.json",
               "RelativeDocumentMoniker": "4-FrameworksDrivers-Consola\\appsettings.json",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\appsettings.json",
               "RelativeDocumentMoniker": "4-FrameworksDrivers-API\\appsettings.json",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\appsettings.json",
               "RelativeToolTip": "4-FrameworksDrivers-API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-10T16:26:09.027Z",
               "EditorCaption": ""
@@ -106,7 +106,7 @@
               "RelativeDocumentMoniker": "4-FrameworksDrivers-API\\Program.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
               "RelativeToolTip": "4-FrameworksDrivers-API\\Program.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIkAAAAAAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAAIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T10:38:11.517Z",
               "EditorCaption": ""

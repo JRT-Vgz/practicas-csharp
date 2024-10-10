@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4-FrameworksDrivers-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f0acb60009d37be3d03ee46962cbee1c24963a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+943c0f8a9ea49b68c9d935b4af3b5fb6c16fe42f")]
 [assembly: System.Reflection.AssemblyProductAttribute("4-FrameworksDrivers-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4-FrameworksDrivers-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
