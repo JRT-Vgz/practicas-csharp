@@ -28,9 +28,12 @@ builder.Services.AddSwaggerGen();
 // DEPENDENCIAS
 // Interfaces
 builder.Services.AddScoped<IRepository<Beer>, Repository>();
+builder.Services.AddScoped<IRepository<Sale>, SaleRepository>();
+builder.Services.AddScoped<IRepositorySearch<SaleModel, Sale>, SaleRepository>();
 builder.Services.AddScoped<IPresenter<Beer, BeerViewModel>, BeerPresenter>();
 builder.Services.AddScoped<IPresenter<Beer, BeerDetailViewModel>, BeerDetailPresenter>();
 builder.Services.AddScoped<IMapper<BeerRequestDto, Beer>, BeerMapper>();
+builder.Services.AddScoped<IMapper<SaleRequestDto, Sale>, SaleMapper>();
 builder.Services.AddScoped<IExternalServiceAdapter<Post>, PostExternalServiceAdapter>();
 builder.Services.AddScoped<IExternalService<PostServiceDto>, PostService>();
 
@@ -39,6 +42,9 @@ builder.Services.AddScoped<GetBeerUseCase<Beer, BeerViewModel>>();
 builder.Services.AddScoped<GetBeerUseCase<Beer, BeerDetailViewModel>>();
 builder.Services.AddScoped<AddBeerUseCase<BeerRequestDto>>();
 builder.Services.AddScoped<GetPostUseCase>();
+builder.Services.AddScoped<GenerateSaleUseCase<SaleRequestDto>>();
+builder.Services.AddScoped<GetSaleUseCase>();
+builder.Services.AddScoped<GetSaleSearchUseCase<SaleModel>>();
 
 // Entity Framework
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -110,6 +116,33 @@ app.MapGet("/posts", async (GetPostUseCase postUseCase) =>
     return await postUseCase.GetAllAsync();
 })
 .WithName("posts")
+.WithOpenApi();
+
+// GENERATE SALE
+app.MapPost("/sale", async (SaleRequestDto saleRequestDto,
+    GenerateSaleUseCase<SaleRequestDto> saleUseCase) =>
+{
+    await saleUseCase.ExecuteAsync(saleRequestDto);
+    return Results.Created();
+})
+.WithName("generateSale")
+.WithOpenApi();
+
+// GET SALE
+app.MapGet("/sale", async (GetSaleUseCase saleUseCase) =>
+{
+    return await saleUseCase.ExecuteAsync();
+})
+.WithName("getSale")
+.WithOpenApi();
+
+// GET SALE SEARCH
+app.MapGet("/salesearch/{total}", async (GetSaleSearchUseCase<SaleModel> saleUseCase,
+    decimal total) =>
+{
+    return await saleUseCase.ExecuteAsync(s => s.Total >= total);
+})
+.WithName("getSaleSearch")
 .WithOpenApi();
 
 

@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-models\\conceptmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|solutionrelative:3-interfaceadapters-models\\conceptmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84DD723-E0B6-46FE-81E1-B86ED1DFD4E2}|4-FrameworksDrivers-API\\4-FrameworksDrivers-API.csproj|solutionrelative:4-frameworksdrivers-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-models\\salemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEAFC8D-5F69-47AD-99ED-051DF5C363D4}|3-InterfaceAdapters-Models\\3-InterfaceAdapters-Models.csproj|solutionrelative:3-interfaceadapters-models\\salemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5134DAA-1D57-42B6-946B-3A397E60E554}|3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-repository\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5134DAA-1D57-42B6-946B-3A397E60E554}|3-InterfaceAdapters-Repository\\3-InterfaceAdapters-Repository.csproj|solutionrelative:3-interfaceadapters-repository\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4584C6-941F-4CCC-B6C2-123921E93B4E}|3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4584C6-941F-4CCC-B6C2-123921E93B4E}|3-InterfaceAdapters-Data\\3-InterfaceAdapters-Data.csproj|solutionrelative:3-interfaceadapters-data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\irepositorysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\irepositorysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9CDFFA-6146-47D1-AFD0-0A8A6B8F4E2C}|1-EnterpriseLayer\\1-EnterpriseLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-enterpriselayer\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9CDFFA-6146-47D1-AFD0-0A8A6B8F4E2C}|1-EnterpriseLayer\\1-EnterpriseLayer.csproj|solutionrelative:1-enterpriselayer\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9CDFFA-6146-47D1-AFD0-0A8A6B8F4E2C}|1-EnterpriseLayer\\1-EnterpriseLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-enterpriselayer\\concept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9CDFFA-6146-47D1-AFD0-0A8A6B8F4E2C}|1-EnterpriseLayer\\1-EnterpriseLayer.csproj|solutionrelative:1-enterpriselayer\\concept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\generatesaleusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\generatesaleusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B87395B-F2EB-45E2-959D-57B437D58FF1}|3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-mappers\\salemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87395B-F2EB-45E2-959D-57B437D58FF1}|3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj|solutionrelative:3-interfaceadapters-mappers\\salemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B87395B-F2EB-45E2-959D-57B437D58FF1}|3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-interfaceadapters-mappers\\dtos\\requests\\salerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87395B-F2EB-45E2-959D-57B437D58FF1}|3-InterfaceAdapters-Mappers\\3-InterfaceAdapters-Mappers.csproj|solutionrelative:3-interfaceadapters-mappers\\dtos\\requests\\salerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-applicationlayer\\getsalesearchusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B42C869-C913-4723-8F1D-8E529101DD73}|2-ApplicationLayer\\2-ApplicationLayer.csproj|solutionrelative:2-applicationlayer\\getsalesearchusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "3-InterfaceAdapters-Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Data\\AppDbContext.cs",
-              "RelativeToolTip": "3-InterfaceAdapters-Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "GetSaleSearchUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetSaleSearchUseCase.cs",
+              "RelativeDocumentMoniker": "2-ApplicationLayer\\GetSaleSearchUseCase.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GetSaleSearchUseCase.cs",
+              "RelativeToolTip": "2-ApplicationLayer\\GetSaleSearchUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:27:48.201Z",
+              "WhenOpened": "2024-10-10T14:54:20.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConceptModel.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\ConceptModel.cs",
-              "RelativeDocumentMoniker": "3-InterfaceAdapters-Models\\ConceptModel.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\ConceptModel.cs",
-              "RelativeToolTip": "3-InterfaceAdapters-Models\\ConceptModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "IRepositorySearch.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IRepositorySearch.cs",
+              "RelativeDocumentMoniker": "2-ApplicationLayer\\IRepositorySearch.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\IRepositorySearch.cs",
+              "RelativeToolTip": "2-ApplicationLayer\\IRepositorySearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:23:25.902Z",
+              "WhenOpened": "2024-10-10T14:48:31.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SaleModel.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\SaleModel.cs",
-              "RelativeDocumentMoniker": "3-InterfaceAdapters-Models\\SaleModel.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Models\\SaleModel.cs",
-              "RelativeToolTip": "3-InterfaceAdapters-Models\\SaleModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "3-InterfaceAdapters-Repository\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Repository\\SaleRepository.cs",
+              "RelativeToolTip": "3-InterfaceAdapters-Repository\\SaleRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwEkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:21:46.271Z",
+              "WhenOpened": "2024-10-10T14:42:47.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenerateSaleUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GenerateSaleUseCase.cs",
-              "RelativeDocumentMoniker": "2-ApplicationLayer\\GenerateSaleUseCase.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\2-ApplicationLayer\\GenerateSaleUseCase.cs",
-              "RelativeToolTip": "2-ApplicationLayer\\GenerateSaleUseCase.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAXAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeDocumentMoniker": "4-FrameworksDrivers-API\\Program.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\4-FrameworksDrivers-API\\Program.cs",
+              "RelativeToolTip": "4-FrameworksDrivers-API\\Program.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:20:41.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SaleMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\SaleMapper.cs",
-              "RelativeDocumentMoniker": "3-InterfaceAdapters-Mappers\\SaleMapper.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\SaleMapper.cs",
-              "RelativeToolTip": "3-InterfaceAdapters-Mappers\\SaleMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T14:46:09.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SaleRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\Dtos\\Requests\\SaleRequestDto.cs",
-              "RelativeDocumentMoniker": "3-InterfaceAdapters-Mappers\\Dtos\\Requests\\SaleRequestDto.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\3-InterfaceAdapters-Mappers\\Dtos\\Requests\\SaleRequestDto.cs",
-              "RelativeToolTip": "3-InterfaceAdapters-Mappers\\Dtos\\Requests\\SaleRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T14:42:10.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-EnterpriseLayer\\Sale.cs",
-              "RelativeDocumentMoniker": "1-EnterpriseLayer\\Sale.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-EnterpriseLayer\\Sale.cs",
-              "RelativeToolTip": "1-EnterpriseLayer\\Sale.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T14:02:02.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Concept.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-EnterpriseLayer\\Concept.cs",
-              "RelativeDocumentMoniker": "1-EnterpriseLayer\\Concept.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\04 -demo-clean-architecture\\1-EnterpriseLayer\\Concept.cs",
-              "RelativeToolTip": "1-EnterpriseLayer\\Concept.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T13:57:19.457Z",
+              "WhenOpened": "2024-10-08T10:38:11.517Z",
               "EditorCaption": ""
             }
           ]
