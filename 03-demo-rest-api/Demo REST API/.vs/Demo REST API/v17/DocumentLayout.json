@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\repository\\beerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|c:\\users\\miguel\\desktop\\practicas-csharp\\03-demo-rest-api\\demo rest api\\demo rest api\\controllers\\operationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC5EA75-1AA5-498D-9BBC-A443380FBE5F}|Demo REST API\\Demo REST API.csproj|solutionrelative:demo rest api\\controllers\\operationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Repository\\BeerRepository.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Repository\\BeerRepository.cs",
-              "RelativeToolTip": "Demo REST API\\Repository\\BeerRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwBwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T16:06:06.409Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BeerController.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Controllers\\BeerController.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\BeerController.cs",
-              "RelativeToolTip": "Demo REST API\\Controllers\\BeerController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAEMAAAAxAAAA",
+              "Title": "OperationController.cs",
+              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\OperationController.cs",
+              "RelativeDocumentMoniker": "Demo REST API\\Controllers\\OperationController.cs",
+              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Controllers\\OperationController.cs",
+              "RelativeToolTip": "Demo REST API\\Controllers\\OperationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:59:35.461Z",
+              "WhenOpened": "2024-10-18T13:36:19.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BeerService.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Services\\BeerService.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Services\\BeerService.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Services\\BeerService.cs",
-              "RelativeToolTip": "Demo REST API\\Services\\BeerService.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAGMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:56:53.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Automappers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Demo REST API\\Automappers\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Automappers\\MappingProfile.cs",
-              "RelativeToolTip": "Demo REST API\\Automappers\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:43:49.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Program.cs",
               "RelativeDocumentMoniker": "Demo REST API\\Program.cs",
               "ToolTip": "C:\\Users\\Miguel\\Desktop\\practicas-csharp\\03-demo-rest-api\\Demo REST API\\Demo REST API\\Program.cs",
               "RelativeToolTip": "Demo REST API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:51:28.762Z"
+              "WhenOpened": "2024-10-18T13:32:55.308Z",
+              "EditorCaption": ""
             }
           ]
         }
