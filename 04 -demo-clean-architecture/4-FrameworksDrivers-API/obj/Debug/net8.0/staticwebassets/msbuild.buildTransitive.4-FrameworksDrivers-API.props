@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\4-FrameworksDrivers-API.props" />
-</Project>
