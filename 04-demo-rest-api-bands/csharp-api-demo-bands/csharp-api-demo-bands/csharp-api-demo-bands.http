@@ -1,0 +1,6 @@
+@csharp_api_demo_bands_HostAddress = http://localhost:5104
+
+GET {{csharp_api_demo_bands_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
