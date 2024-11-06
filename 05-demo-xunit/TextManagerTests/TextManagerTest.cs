@@ -1,3 +1,6 @@
+using Castle.Core.Logging;
+using Microsoft.Extensions.Logging;
+using Moq;
 using System.Text.RegularExpressions;
 using TextManagement;
 
@@ -5,21 +8,45 @@ namespace TextManagerTests
 {
     public class TextManagerTest
     {
-        [Fact]
-        public void CountWords()
+        TextManager textManagerGlobal;
+        ILogger<TextManager> loggerTest;
+
+        public TextManagerTest()
         {
-            var textmanager = new TextManager("Texto Prueba");   
+            var mock = new Mock<ILogger<TextManager>>();
+            loggerTest = mock.Object;
+            textManagerGlobal = new TextManager("hola hola desde xunit", loggerTest);
+        }
+
+
+        [Theory]
+        [InlineData("Texto Prueba",2)]
+        [InlineData("",0)]
+        [InlineData("El otro dia en clase",5)]
+        public void CountWords_InlineData(string text, int expected)
+        {
+            var textmanager = new TextManager(text, loggerTest);   
 
             var result = textmanager.CountWords();
 
-            Assert.True(result > 1);
-            Assert.Equal(2, result);
+            Assert.Equal(expected, result);
+        }
+
+        [Theory]
+        [ClassData(typeof(TextManagerClassData))]
+        public void CountWords_ClassData(string text, int expected)
+        {
+            var textmanager = new TextManager(text, loggerTest);
+
+            var result = textmanager.CountWords();
+
+            Assert.Equal(expected, result);
         }
 
         [Fact]
         public void CountWords_NotZero()
         {
-            var textmanager = new TextManager("Texto Prueba");
+            var textmanager = new TextManager("Texto Prueba", loggerTest);
 
             var result = textmanager.CountWords();
 
@@ -27,11 +54,21 @@ namespace TextManagerTests
         }
 
         [Fact]
+        public void CountWords_NotZero_Moq()
+        {
+            var mockTextManager = new Mock<TextManager>("Texto Prueba", loggerTest);
+            mockTextManager.Setup(p => p.CountWords()).Returns(2);
+
+            var result = mockTextManager.Object.CountWords();
+
+            Assert.NotEqual(0, result);
+        }
+
+
+        [Fact]
         public void FindWord()
         {
-            var textmanager = new TextManager("hola hola desde xunit");
-
-            var result = textmanager.FindWord("hola", true);
+            var result = textManagerGlobal.FindWord("hola", true);
 
             Assert.NotEmpty(result);
             Assert.Contains(0, result);
@@ -41,9 +78,7 @@ namespace TextManagerTests
         [Fact]
         public void FindWord_Empty()
         {
-            var textmanager = new TextManager("hola hola desde xunit");
-
-            var result = textmanager.FindWord("mundo", true);
+            var result = textManagerGlobal.FindWord("mundo", true);
 
             Assert.Empty(result);
         }
@@ -51,19 +86,15 @@ namespace TextManagerTests
         [Fact]
         public void FindExactWord()
         {
-            var textmanager = new TextManager("hola hola desde xunit");
+            var result = textManagerGlobal.FindExactWord("mundo", true);
 
-            var result = textmanager.FindExactWord("mundo", true);
-
-            Assert.IsType<List<Match>>(result);
+            Assert.IsType<List<System.Text.RegularExpressions.Match>>(result);
         }
 
         [Fact]
         public void FindExactWord_Exception()
         {
-            var textmanager = new TextManager("hola hola desde xunit");
-
-            Assert.ThrowsAny<Exception>(() => textmanager.FindExactWord(null, true));
+            Assert.ThrowsAny<Exception>(() => textManagerGlobal.FindExactWord(null, true));
         }
 
     }

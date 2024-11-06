@@ -1,5 +1,6 @@
 ﻿namespace TextManagement
 {
+    using Microsoft.Extensions.Logging;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -16,10 +17,14 @@
         /// Initializes a new instance of the <see cref="TextManager" /> class.
         /// </summary>
         /// <param name="strText">Text using for changes and caculate values</param>
-        public TextManager(string strText)
+
+        private readonly ILogger<TextManager> _logger;
+
+        public TextManager(string strText, ILogger<TextManager> logger)
         {
             this.TextOriginal = strText;
             this.TextEdited = strText;
+            _logger = logger;
         }
 
         /// <summary>
@@ -36,7 +41,7 @@
         /// Count number words in orginal text
         /// </summary>
         /// <returns>int with counted words</returns>
-        public int CountWords()
+        public virtual int CountWords()
         {
             // var set number word and return calculate value
             int intCount = 0;
@@ -52,6 +57,8 @@
                     intCount++;
                 }
             }
+
+            _logger.LogInformation($"Count {intCount} for text {TextOriginal}");
 
             return intCount;
         }
