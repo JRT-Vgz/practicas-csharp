@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Name": "London Porter",
+    "Brand": "Fuller's",
+    "Alcohol": 8.5
+  },
+  {
+    "Id": 2,
+    "Name": "Hazy IPA",
+    "Brand": "Sierra Nevada",
+    "Alcohol": 8.5
+  },
+  {
+    "Id": 3,
+    "Name": "Pale Ale",
+    "Brand": "Minerva",
+    "Alcohol": 8.5
+  }
+]
