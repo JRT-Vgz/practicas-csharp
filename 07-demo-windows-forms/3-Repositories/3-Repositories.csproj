@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_3_Repositories</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1-Entities\1-Entities.csproj" />
+    <ProjectReference Include="..\2-Services\2-Services.csproj" />
+    <ProjectReference Include="..\3-Data\3-Data.csproj" />
+    <ProjectReference Include="..\3-Models\3-Models.csproj" />
+  </ItemGroup>
+
+</Project>
