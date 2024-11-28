@@ -52,6 +52,8 @@ namespace _07_demo_windows_forms
             services.AddTransient<FormMain>();
             services.AddTransient<FormBrand>();
             services.AddTransient<FormNewEditBrand>();
+            services.AddTransient<FormBeer>();
+            services.AddTransient<FormNewEditBeer>();
         }
     }
 }

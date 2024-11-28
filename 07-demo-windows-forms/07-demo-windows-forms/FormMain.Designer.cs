@@ -32,12 +32,13 @@
             menuStrip1 = new MenuStrip();
             brandsToolStripMenuItem = new ToolStripMenuItem();
             brandsToolStripMenuItem1 = new ToolStripMenuItem();
+            cervezasToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(392, 163);
+            button1.Location = new Point(380, 207);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -56,7 +57,7 @@
             // 
             // brandsToolStripMenuItem
             // 
-            brandsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { brandsToolStripMenuItem1 });
+            brandsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { brandsToolStripMenuItem1, cervezasToolStripMenuItem });
             brandsToolStripMenuItem.Name = "brandsToolStripMenuItem";
             brandsToolStripMenuItem.Size = new Size(93, 20);
             brandsToolStripMenuItem.Text = "Configuration";
@@ -69,6 +70,13 @@
             brandsToolStripMenuItem1.Text = "Brands";
             brandsToolStripMenuItem1.Click += brandsToolStripMenuItem1_Click;
             // 
+            // cervezasToolStripMenuItem
+            // 
+            cervezasToolStripMenuItem.Name = "cervezasToolStripMenuItem";
+            cervezasToolStripMenuItem.Size = new Size(180, 22);
+            cervezasToolStripMenuItem.Text = "Cervezas";
+            cervezasToolStripMenuItem.Click += cervezasToolStripMenuItem_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -79,6 +87,7 @@
             MainMenuStrip = menuStrip1;
             Name = "FormMain";
             Text = "Formulario Principal";
+            Load += FormMain_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -91,5 +100,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem brandsToolStripMenuItem;
         private ToolStripMenuItem brandsToolStripMenuItem1;
+        private ToolStripMenuItem cervezasToolStripMenuItem;
     }
 }

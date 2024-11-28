@@ -27,5 +27,16 @@ namespace _07_demo_windows_forms
             var frm = _serviceProvider.GetRequiredService<FormBrand>();
             frm.ShowDialog();
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cervezasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = _serviceProvider.GetRequiredService<FormBeer>();
+            frm.ShowDialog();
+        }
     }
 }

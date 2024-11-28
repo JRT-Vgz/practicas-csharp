@@ -1,7 +1,7 @@
 
-namespace _3_Models
+namespace _2_Services.DTOs
 {
-    public class BeerModel
+    public class BeerDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

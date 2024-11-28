@@ -3,11 +3,12 @@ using _1_Entities;
 using _2_Services;
 using _3_Data;
 using _3_Models;
+using _3_Repositories.AdditionalDataClass;
 using Microsoft.EntityFrameworkCore;
 
 namespace _3_Repositories
 {
-    public class BeerRepository : IRepository<Beer>
+    public class BeerRepository : IRepositoryAdditionalData<Beer, BeerAdditionalData>
     {
         private readonly AppDbContext _context;
         public BeerRepository(AppDbContext context)
@@ -37,13 +38,14 @@ namespace _3_Repositories
             };
         }
 
-        public async Task AddAsync(Beer beer)
+        public async Task AddAsync(Beer beer, BeerAdditionalData beerAdditionalData)
         {
             var beerModel = new BeerModel 
             { 
                 Name = beer.Name,
                 BrandId = beer.Id,
-                Alcohol = beer.Alcohol,               
+                Alcohol = beer.Alcohol,  
+                Description = beerAdditionalData.Description
             };
 
             await _context.Beers.AddAsync(beerModel);
