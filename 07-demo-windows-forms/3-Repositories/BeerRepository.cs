@@ -25,17 +25,24 @@ namespace _3_Repositories
                 Alcohol = b.Alcohol
             }).ToListAsync();
 
-        public async Task<Beer> GetByIdAsync(int id)
+        public async Task<(Beer, BeerAdditionalData)> GetByIdAsync(int id)
         {
             var beerModel = await _context.Beers.FindAsync(id);
 
-            return new Beer 
+            var beer =  new Beer 
             { 
                 Id = beerModel.Id, 
                 Name = beerModel.Name,
                 BrandId = beerModel.BrandId,
                 Alcohol = beerModel.Alcohol
             };
+
+            var beerAdditionalData = new BeerAdditionalData
+            {
+                Description = beerModel.Description
+            };
+
+            return (beer, beerAdditionalData);
         }
 
         public async Task AddAsync(Beer beer, BeerAdditionalData beerAdditionalData)
@@ -43,7 +50,7 @@ namespace _3_Repositories
             var beerModel = new BeerModel 
             { 
                 Name = beer.Name,
-                BrandId = beer.Id,
+                BrandId = beer.BrandId,
                 Alcohol = beer.Alcohol,  
                 Description = beerAdditionalData.Description
             };
@@ -52,13 +59,14 @@ namespace _3_Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task EditAsync(Beer beer)
+        public async Task EditAsync(Beer beer, BeerAdditionalData beerAdditionalData)
         {
             var beerModel = await _context.Beers.FindAsync(beer.Id);
 
             beerModel.Name = beer.Name;
             beerModel.BrandId = beer.BrandId;
             beerModel.Alcohol = beer.Alcohol;
+            beerModel.Description = beerAdditionalData.Description;
 
             _context.Entry(beerModel).State = EntityState.Modified;
             await _context.SaveChangesAsync();

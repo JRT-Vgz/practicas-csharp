@@ -35,12 +35,14 @@
             cboBrand = new ComboBox();
             txtAlcohol = new TextBox();
             button1 = new Button();
+            txtDescription = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(60, 28);
+            label1.Location = new Point(60, 31);
             label1.Name = "label1";
             label1.Size = new Size(51, 15);
             label1.TabIndex = 0;
@@ -92,19 +94,39 @@
             // 
             // button1
             // 
-            button1.Location = new Point(155, 144);
+            button1.Location = new Point(155, 169);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
-            button1.TabIndex = 4;
+            button1.TabIndex = 5;
             button1.Text = "Guardar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // txtDescription
+            // 
+            txtDescription.Location = new Point(130, 133);
+            txtDescription.MaxLength = 50;
+            txtDescription.Name = "txtDescription";
+            txtDescription.Size = new Size(169, 23);
+            txtDescription.TabIndex = 4;
+            txtDescription.TextChanged += textBox1_TextChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(60, 136);
+            label4.Name = "label4";
+            label4.Size = new Size(69, 15);
+            label4.TabIndex = 5;
+            label4.Text = "Descripción";
             // 
             // FormNewEditBeer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(374, 181);
+            ClientSize = new Size(374, 204);
+            Controls.Add(txtDescription);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(txtAlcohol);
             Controls.Add(cboBrand);
@@ -134,5 +156,7 @@
         private ComboBox cboBrand;
         private TextBox txtAlcohol;
         private Button button1;
+        private TextBox txtDescription;
+        private Label label4;
     }
 }

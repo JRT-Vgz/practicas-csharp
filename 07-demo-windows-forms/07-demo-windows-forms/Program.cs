@@ -6,6 +6,7 @@ using _3_Data;
 using _3_Repositories;
 using _3_Repositories.AdditionalDataClass;
 using _3_Repositories.Mappers;
+using _3_Repositories.QueryObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -51,8 +52,11 @@ namespace _07_demo_windows_forms
             services.AddTransient<EditBrand>();
             services.AddTransient<AddBeer<BeerAdditionalData>>();
             services.AddTransient<EditBeer<BeerAdditionalData>>();
+            services.AddTransient<GetBeerById<BeerAdditionalData>>();
             services.AddTransient<IMapper<BeerDTO, Beer>, MapperToBeerEntity>();
             services.AddTransient<IMapper<BeerDTO, BeerAdditionalData>, MapperToBeerAdditionalData>();
+            services.AddTransient<ISuperMapper<Beer, BeerAdditionalData, BeerDTO>, SuperMapperToBeerDTO>();
+            services.AddTransient<BeerWithBrandQuery>();
 
             // INYECCIÓN DE FORMULARIOS.
             services.AddTransient<FormMain>();

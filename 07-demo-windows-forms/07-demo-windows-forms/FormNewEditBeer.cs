@@ -20,8 +20,8 @@ namespace _07_demo_windows_forms
         private readonly AddBeer<BeerAdditionalData> _addBeer;
         private readonly EditBeer<BeerAdditionalData> _editBeer;
 
-        private Beer _beer;
-        public Beer Beer { set {  _beer = value; } }
+        private BeerDTO _beer;
+        public BeerDTO Beer { set { _beer = value; } }
 
         public FormNewEditBeer(IRepository<Brand> repository,
             AddBeer<BeerAdditionalData> addBeer,
@@ -61,6 +61,7 @@ namespace _07_demo_windows_forms
             txtName.Text = _beer.Name;
             cboBrand.SelectedValue = _beer.BrandId;
             txtAlcohol.Text = _beer.Alcohol.ToString();
+            txtDescription.Text = _beer.Description;
         }
 
         private void txtAlcohol_KeyPress(object sender, KeyPressEventArgs e)
@@ -102,14 +103,17 @@ namespace _07_demo_windows_forms
             string name = txtName.Text.Trim();
             int idBrand = int.Parse(cboBrand.SelectedValue.ToString());
             decimal alcohol = decimal.Parse(txtAlcohol.Text.Trim().ToString());
+            string description = txtDescription.Text.Trim();
 
             await _addBeer.ExecuteAsync(new BeerDTO
             {
                 Name = name,
                 BrandId = idBrand,
                 Alcohol = alcohol,
-                Description = "Algo extra"
+                Description = description
             });
+
+            this.Close();
         }
 
         private async Task Edit()
@@ -117,16 +121,23 @@ namespace _07_demo_windows_forms
             string name = txtName.Text.Trim();
             int idBrand = int.Parse(cboBrand.SelectedValue.ToString());
             decimal alcohol = decimal.Parse(txtAlcohol.Text.Trim().ToString());
+            string description = txtDescription.Text.Trim();
 
-            await _editBeer.ExecuteAsync(new Beer
+            await _editBeer.ExecuteAsync(new BeerDTO
             {
                 Id = _beer.Id,
                 Name = name,
                 BrandId = idBrand,
-                Alcohol = alcohol
+                Alcohol = alcohol,
+                Description = description
             });
 
             this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
