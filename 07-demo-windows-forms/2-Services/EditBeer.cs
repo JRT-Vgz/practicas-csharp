@@ -3,10 +3,10 @@ using _1_Entities;
 
 namespace _2_Services
 {
-    public class EditBeer
+    public class EditBeer<TAdditionalData>
     {
-        private readonly IRepository<Beer> _repository;
-        public EditBeer(IRepository<Beer> repository)
+        private readonly IRepositoryAdditionalData<Beer, TAdditionalData> _repository;
+        public EditBeer(IRepositoryAdditionalData<Beer, TAdditionalData> repository)
         {
             _repository = repository;
         }

@@ -1,7 +1,11 @@
 using _1_Entities;
 using _2_Services;
+using _2_Services.DTOs;
+using _2_Services.Mappers;
 using _3_Data;
 using _3_Repositories;
+using _3_Repositories.AdditionalDataClass;
+using _3_Repositories.Mappers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,11 +46,13 @@ namespace _07_demo_windows_forms
                 options.UseMySQL(configuration.GetConnectionString("DB")));
 
             services.AddTransient<IRepository<Brand>, BrandRepository>();
-            services.AddTransient<IRepository<Beer>, BeerRepository>();
+            services.AddTransient<IRepositoryAdditionalData<Beer, BeerAdditionalData>, BeerRepository>();
             services.AddTransient<AddBrand>();
             services.AddTransient<EditBrand>();
-            services.AddTransient<AddBeer>();
-            services.AddTransient<EditBeer>();
+            services.AddTransient<AddBeer<BeerAdditionalData>>();
+            services.AddTransient<EditBeer<BeerAdditionalData>>();
+            services.AddTransient<IMapper<BeerDTO, Beer>, MapperToBeerEntity>();
+            services.AddTransient<IMapper<BeerDTO, BeerAdditionalData>, MapperToBeerAdditionalData>();
 
             // INYECCIÓN DE FORMULARIOS.
             services.AddTransient<FormMain>();

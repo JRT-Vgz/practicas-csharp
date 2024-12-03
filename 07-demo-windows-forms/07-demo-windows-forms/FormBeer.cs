@@ -1,5 +1,6 @@
 ﻿using _1_Entities;
 using _2_Services;
+using _3_Repositories.AdditionalDataClass;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,9 @@ namespace _07_demo_windows_forms
 {
     public partial class FormBeer : Form
     {
-        private readonly IRepository<Beer> _repository;
+        private readonly IRepositoryAdditionalData<Beer, BeerAdditionalData> _repository;
         private readonly IServiceProvider _serviceProvider;
-        public FormBeer(IRepository<Beer> repository,
+        public FormBeer(IRepositoryAdditionalData<Beer, BeerAdditionalData> repository,
             IServiceProvider serviceProvider)
         {
             InitializeComponent();
