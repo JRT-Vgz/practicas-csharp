@@ -14,6 +14,8 @@ namespace _3_Models
         [Column(TypeName = "decimal(18,2)")]
         public decimal Alcohol { get; set; }
         public string Description { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Price { get; set; }
 
         [ForeignKey("BrandId")]
         public BrandModel Brand { get; set; }

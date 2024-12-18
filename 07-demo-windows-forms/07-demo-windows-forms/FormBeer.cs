@@ -3,15 +3,6 @@ using _2_Services;
 using _3_Repositories.AdditionalDataClass;
 using _3_Repositories.QueryObjects;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace _07_demo_windows_forms
 {

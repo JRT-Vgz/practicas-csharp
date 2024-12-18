@@ -38,8 +38,13 @@ namespace _07_demo_windows_forms
         private static void ConfigureServices(ServiceCollection services) 
         {
             //CONFIGURACIÓN.
+            //var configuration = new ConfigurationBuilder()
+            //    .AddJsonFile(@"C:\Users\Miguel\Desktop\practicas-csharp\07-demo-windows-forms\07-demo-windows-forms\appsettings.json", optional: false, reloadOnChange: true)
+            //    .Build();
+
             var configuration = new ConfigurationBuilder()
-                .AddJsonFile(@"C:\Users\Miguel\Desktop\practicas-csharp\07-demo-windows-forms\07-demo-windows-forms\appsettings.json", optional: false, reloadOnChange: true)
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
 
             // INYECCION DE DEPENDENCIAS.
@@ -48,14 +53,19 @@ namespace _07_demo_windows_forms
 
             services.AddTransient<IRepository<Brand>, BrandRepository>();
             services.AddTransient<IRepositoryAdditionalData<Beer, BeerAdditionalData>, BeerRepository>();
-            services.AddTransient<AddBrand>();
-            services.AddTransient<EditBrand>();
-            services.AddTransient<AddBeer<BeerAdditionalData>>();
-            services.AddTransient<EditBeer<BeerAdditionalData>>();
-            services.AddTransient<GetBeerById<BeerAdditionalData>>();
+            services.AddTransient<IRepositorySimple<Sale>, SaleRepository>();
+
             services.AddTransient<IMapper<BeerDTO, Beer>, MapperToBeerEntity>();
+            services.AddTransient<IMapper<SaleDTO, Sale>, MapperToSaleEntity>();
             services.AddTransient<IMapper<BeerDTO, BeerAdditionalData>, MapperToBeerAdditionalData>();
             services.AddTransient<ISuperMapper<Beer, BeerAdditionalData, BeerDTO>, SuperMapperToBeerDTO>();
+
+            services.AddTransient<AddBrand>();
+            services.AddTransient<EditBrand>();
+            services.AddTransient<CreateSale>();
+            services.AddTransient<AddBeer<BeerAdditionalData>>();
+            services.AddTransient<EditBeer<BeerAdditionalData>>();
+            services.AddTransient<GetBeerById<BeerAdditionalData>>();           
             services.AddTransient<BeerWithBrandQuery>();
 
             // INYECCIÓN DE FORMULARIOS.
@@ -64,6 +74,7 @@ namespace _07_demo_windows_forms
             services.AddTransient<FormNewEditBrand>();
             services.AddTransient<FormBeer>();
             services.AddTransient<FormNewEditBeer>();
+            services.AddTransient<FormNewSale>();
         }
     }
 }

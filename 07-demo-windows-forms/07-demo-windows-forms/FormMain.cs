@@ -1,3 +1,5 @@
+using _1_Entities;
+using _2_Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace _07_demo_windows_forms
@@ -5,10 +7,13 @@ namespace _07_demo_windows_forms
     public partial class FormMain : Form
     {
         private readonly IServiceProvider _serviceProvider;
-        public FormMain(IServiceProvider serviceProvider)
+        private readonly IRepositorySimple<Sale> _saleRepository;
+        public FormMain(IServiceProvider serviceProvider,
+            IRepositorySimple<Sale> saleRepository)
         {
             InitializeComponent();
             _serviceProvider = serviceProvider;
+            _saleRepository = saleRepository;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,15 +33,28 @@ namespace _07_demo_windows_forms
             frm.ShowDialog();
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
+        private async void FormMain_Load(object sender, EventArgs e)
         {
-            
+            await Refresh();
+        }
+
+        private async Task Refresh()
+        {
+            dgv.DataSource = await _saleRepository.GetAllAsync();
+            dgv.Columns[dgv.Columns.Count - 1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
 
         private void cervezasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frm = _serviceProvider.GetRequiredService<FormBeer>();
             frm.ShowDialog();
+        }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            var frm = _serviceProvider.GetRequiredService<FormNewSale>();
+            frm.ShowDialog();
+            await Refresh();
         }
     }
 }

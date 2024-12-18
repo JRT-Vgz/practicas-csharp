@@ -33,12 +33,17 @@
             brandsToolStripMenuItem = new ToolStripMenuItem();
             brandsToolStripMenuItem1 = new ToolStripMenuItem();
             cervezasToolStripMenuItem = new ToolStripMenuItem();
+            panel1 = new Panel();
+            button2 = new Button();
+            dgv = new DataGridView();
             menuStrip1.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(380, 207);
+            button1.Location = new Point(12, 415);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -66,22 +71,58 @@
             // brandsToolStripMenuItem1
             // 
             brandsToolStripMenuItem1.Name = "brandsToolStripMenuItem1";
-            brandsToolStripMenuItem1.Size = new Size(180, 22);
+            brandsToolStripMenuItem1.Size = new Size(120, 22);
             brandsToolStripMenuItem1.Text = "Brands";
             brandsToolStripMenuItem1.Click += brandsToolStripMenuItem1_Click;
             // 
             // cervezasToolStripMenuItem
             // 
             cervezasToolStripMenuItem.Name = "cervezasToolStripMenuItem";
-            cervezasToolStripMenuItem.Size = new Size(180, 22);
+            cervezasToolStripMenuItem.Size = new Size(120, 22);
             cervezasToolStripMenuItem.Text = "Cervezas";
             cervezasToolStripMenuItem.Click += cervezasToolStripMenuItem_Click;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(button2);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 24);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(800, 68);
+            panel1.TabIndex = 2;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(28, 23);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 23);
+            button2.TabIndex = 0;
+            button2.Text = "Nueva venta";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // dgv
+            // 
+            dgv.AllowUserToAddRows = false;
+            dgv.AllowUserToResizeRows = false;
+            dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv.Dock = DockStyle.Fill;
+            dgv.Location = new Point(0, 92);
+            dgv.MultiSelect = false;
+            dgv.Name = "dgv";
+            dgv.ReadOnly = true;
+            dgv.RowHeadersVisible = false;
+            dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgv.Size = new Size(800, 358);
+            dgv.TabIndex = 3;
             // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dgv);
+            Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -90,6 +131,8 @@
             Load += FormMain_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -101,5 +144,8 @@
         private ToolStripMenuItem brandsToolStripMenuItem;
         private ToolStripMenuItem brandsToolStripMenuItem1;
         private ToolStripMenuItem cervezasToolStripMenuItem;
+        private Panel panel1;
+        private Button button2;
+        private DataGridView dgv;
     }
 }

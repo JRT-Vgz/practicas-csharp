@@ -1,7 +1,6 @@
 
 using _1_Entities;
 using _2_Services.DTOs;
-using System.Reflection.Metadata.Ecma335;
 
 namespace _2_Services.Mappers
 {
@@ -13,7 +12,8 @@ namespace _2_Services.Mappers
                 Id = beerDto.Id,
                 Name = beerDto.Name,
                 BrandId = beerDto.BrandId,
-                Alcohol = beerDto.Alcohol
+                Alcohol = beerDto.Alcohol,
+                Price = beerDto.Price
             };
     }
 }

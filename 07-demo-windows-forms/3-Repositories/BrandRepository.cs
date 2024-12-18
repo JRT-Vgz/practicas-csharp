@@ -3,7 +3,6 @@ using _2_Services;
 using _3_Data;
 using _3_Models;
 using Microsoft.EntityFrameworkCore;
-using static Org.BouncyCastle.Asn1.Cmp.Challenge;
 
 namespace _3_Repositories
 {

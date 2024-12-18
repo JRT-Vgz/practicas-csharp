@@ -37,6 +37,9 @@
             button1 = new Button();
             txtDescription = new TextBox();
             label4 = new Label();
+            label5 = new Label();
+            txtPrice = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)txtPrice).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -94,10 +97,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(155, 169);
+            button1.Location = new Point(155, 216);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
+            button1.TabIndex = 6;
             button1.Text = "Guardar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -120,11 +123,29 @@
             label4.TabIndex = 5;
             label4.Text = "Descripción";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(60, 177);
+            label5.Name = "label5";
+            label5.Size = new Size(40, 15);
+            label5.TabIndex = 6;
+            label5.Text = "Precio";
+            // 
+            // txtPrice
+            // 
+            txtPrice.Location = new Point(130, 175);
+            txtPrice.Name = "txtPrice";
+            txtPrice.Size = new Size(120, 23);
+            txtPrice.TabIndex = 5;
+            // 
             // FormNewEditBeer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(374, 204);
+            ClientSize = new Size(374, 264);
+            Controls.Add(txtPrice);
+            Controls.Add(label5);
             Controls.Add(txtDescription);
             Controls.Add(label4);
             Controls.Add(button1);
@@ -143,6 +164,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Nueva Cerveza";
             Load += FormNewEditBeer_Load;
+            ((System.ComponentModel.ISupportInitialize)txtPrice).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -158,5 +180,7 @@
         private Button button1;
         private TextBox txtDescription;
         private Label label4;
+        private Label label5;
+        private NumericUpDown txtPrice;
     }
 }

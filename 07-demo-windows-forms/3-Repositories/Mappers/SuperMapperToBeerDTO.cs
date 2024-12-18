@@ -16,7 +16,8 @@ namespace _3_Repositories.Mappers
                 Name = beer.Name,
                 BrandId = beer.BrandId,
                 Alcohol = beer.Alcohol,
-                Description = beerAdditionalData.Description
+                Description = beerAdditionalData.Description,
+                Price = beer.Price
             };
         }
     }

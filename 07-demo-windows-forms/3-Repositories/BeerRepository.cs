@@ -22,7 +22,8 @@ namespace _3_Repositories
                 Id = b.Id,
                 Name = b.Name,
                 BrandId = b.BrandId,
-                Alcohol = b.Alcohol
+                Alcohol = b.Alcohol,
+                Price = b.Price,
             }).ToListAsync();
 
         public async Task<(Beer, BeerAdditionalData)> GetByIdAsync(int id)
@@ -34,7 +35,8 @@ namespace _3_Repositories
                 Id = beerModel.Id, 
                 Name = beerModel.Name,
                 BrandId = beerModel.BrandId,
-                Alcohol = beerModel.Alcohol
+                Alcohol = beerModel.Alcohol,
+                Price = beerModel.Price,
             };
 
             var beerAdditionalData = new BeerAdditionalData
@@ -52,7 +54,8 @@ namespace _3_Repositories
                 Name = beer.Name,
                 BrandId = beer.BrandId,
                 Alcohol = beer.Alcohol,  
-                Description = beerAdditionalData.Description
+                Description = beerAdditionalData.Description,
+                Price = beer.Price
             };
 
             await _context.Beers.AddAsync(beerModel);
@@ -67,6 +70,7 @@ namespace _3_Repositories
             beerModel.BrandId = beer.BrandId;
             beerModel.Alcohol = beer.Alcohol;
             beerModel.Description = beerAdditionalData.Description;
+            beerModel.Price = beer.Price;
 
             _context.Entry(beerModel).State = EntityState.Modified;
             await _context.SaveChangesAsync();

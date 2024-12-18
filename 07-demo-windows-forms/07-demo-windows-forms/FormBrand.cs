@@ -1,16 +1,6 @@
 ﻿using _1_Entities;
 using _2_Services;
 using Microsoft.Extensions.DependencyInjection;
-using Org.BouncyCastle.Pqc.Crypto.Frodo;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace _07_demo_windows_forms
 {

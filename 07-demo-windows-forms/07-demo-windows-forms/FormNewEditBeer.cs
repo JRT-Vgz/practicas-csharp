@@ -2,15 +2,6 @@
 using _2_Services;
 using _2_Services.DTOs;
 using _3_Repositories.AdditionalDataClass;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace _07_demo_windows_forms
 {
@@ -62,6 +53,7 @@ namespace _07_demo_windows_forms
             cboBrand.SelectedValue = _beer.BrandId;
             txtAlcohol.Text = _beer.Alcohol.ToString();
             txtDescription.Text = _beer.Description;
+            txtPrice.Value = _beer.Price;
         }
 
         private void txtAlcohol_KeyPress(object sender, KeyPressEventArgs e)
@@ -104,13 +96,15 @@ namespace _07_demo_windows_forms
             int idBrand = int.Parse(cboBrand.SelectedValue.ToString());
             decimal alcohol = decimal.Parse(txtAlcohol.Text.Trim().ToString());
             string description = txtDescription.Text.Trim();
+            decimal price = txtPrice.Value;
 
             await _addBeer.ExecuteAsync(new BeerDTO
             {
                 Name = name,
                 BrandId = idBrand,
                 Alcohol = alcohol,
-                Description = description
+                Description = description,
+                Price = price
             });
 
             this.Close();
@@ -122,6 +116,7 @@ namespace _07_demo_windows_forms
             int idBrand = int.Parse(cboBrand.SelectedValue.ToString());
             decimal alcohol = decimal.Parse(txtAlcohol.Text.Trim().ToString());
             string description = txtDescription.Text.Trim();
+            decimal price = txtPrice.Value;
 
             await _editBeer.ExecuteAsync(new BeerDTO
             {
@@ -129,7 +124,8 @@ namespace _07_demo_windows_forms
                 Name = name,
                 BrandId = idBrand,
                 Alcohol = alcohol,
-                Description = description
+                Description = description,
+                Price = price
             });
 
             this.Close();
