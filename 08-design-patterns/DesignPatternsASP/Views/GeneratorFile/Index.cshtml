@@ -1,0 +1,22 @@
+﻿<div class="row">
+    <div class="col-8 offset-2">
+        <div class="form-group">
+            <select id="optionFile" class="form-control">
+                <option value="1">Json</option>
+                <option value="2">Pipe</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" onclick="generate();">Generar</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function generate() {
+        let optionFile = document.getElementById("optionFile").value;
+        fetch("@Url.Content("~/GeneratorFile/CreateFile")" + "?optionFile=" + optionFile)
+            .then(res => res.json())
+            .then(json => alert(json));
+    }
+</script>
