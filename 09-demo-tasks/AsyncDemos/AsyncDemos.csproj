@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Demo1\Demo1After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo2\Demo2After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo2\Demo2Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo3\Demo3After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo3\Demo3Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo4\Demo4After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo4\Demo4Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo5\Demo5Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo5\Demo5After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo6\Demo6After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo6\Demo6Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo7\Demo7After.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Demo7\Demo7Before.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

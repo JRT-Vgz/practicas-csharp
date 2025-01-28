@@ -1,0 +1,54 @@
+@page
+@model Cf.Dotnet.EntityFramework.Parte3.Pages.Orders.IndexModel
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form method="get">
+    <p>
+        Range Start:
+        <input type="number" asp-for="RangeStart"/>
+        Range End:
+        <input type="number" asp-for="RangeEnd"/>
+        <input type="submit" value="Search"/>
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Order[0].Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order[0].Customer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order[0].CatalogItem)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Order)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CatalogItem.Id)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

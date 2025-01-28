@@ -1,0 +1,30 @@
+@page
+@model Cf.Dotnet.EntityFramework.Parte5.Pages.ReportModel
+
+<form method="post" asp-page-handler="RunSP">
+    <input type="submit" value="Regenerar el reporte" class="btn btn-primary"/>
+</form>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.ReportItem[0].ReportId)</th>
+        <th>@Html.DisplayNameFor(model => model.ReportItem[0].OrderId)</th>
+        <th>@Html.DisplayNameFor(model => model.ReportItem[0].CustomerName)</th>
+        <th>@Html.DisplayNameFor(model => model.ReportItem[0].Quantity)</th>
+        <th>@Html.DisplayNameFor(model => model.ReportItem[0].ReportDate)</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.ReportItem)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.ReportId)</td>
+            <td>@Html.DisplayFor(modelItem => item.OrderId)</td>
+            <td>@Html.DisplayFor(modelItem => item.CustomerName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => item.ReportDate)</td>
+        </tr>
+    }
+    </tbody>
+</table>

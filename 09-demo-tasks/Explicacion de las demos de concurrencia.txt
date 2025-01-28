@@ -1,0 +1,45 @@
+* Video en bootcamp de api web con .net
+* DemoBefore para antes de los cambios y DemoAfter ya incluye las modificaciones finales de cada demo.
+
+--- DEMO 1 ---
+Creación de una tarea y llamado. La tarea debe recibir un action.
+
+En el botón search se crea un Task y se inicializa más tarde. La UI invoca el resultado de task conforme lo recibe. Si no lo invoca, no se veria ya que el resultado tambien se mostraria en una UI alternativa que no existe.
+
+
+--- DEMO 2 ---
+Task.Run y continuación de tareas.
+
+- Usamos Task.Run() durante la declaración para que ejecute la tarea nada más la declara.
+
+- Dividimos la tarea en subtareas más pequeñas y las concatenamos con ContinueWith(). La tarea sigue con el siguiente paso una vez termina el anterior. Obtenemos el resultado de la tarea anterior de una variable que se llama Result.
+
+
+--- DEMO 3 ---
+Manejo de fallos en las tareas con TaskContinuationOptions.
+
+- Tareas que dependan de la anterior, añadimos la opcion de que solo la ejecute cuando el resultado sea correcto con OnlyOnRanToCompletion.
+- Subtarea que se ejecute solo cuando la anterior falle con OnlyOnFaulted.
+
+
+--- DEMO 4 Y 5 ---
+async y await. Estas palabras automatizan la continuacion y los invokes. Cancelation token.
+
+- Añadimos async y await a los metodos que llamamos con Task.
+
+- Cancelar tareas con CancellationTokenSource. Se inicia un token al inicio. Cada vez que hace una continuacion, se pregunta cual es el estado del token. Si se ha solicitado cancelación, detiene la ejecución. En la ultima tarea se hace Dispose del token y se le pone valor nulo.
+
+
+--- DEMO 6 ---
+Task.WhenAll() y Task.WhenAny(). El primero termina el await cuando ha completado toda la lista de tareas, el segundo cuando ha completado una de las tareas.
+
+- Creamos un listado de tareas para que cada de esas tareas se encargue de su busqueda, esperamos a la resolución de todas para continuar.
+
+
+--- DEMO 7 ---
+Simulando clases tipo Task (para simular la ejecucion de metodos asincronos, permiten probar sin realizar solicitudes, abaratan costos, utilizadas para diferentes cosas como pruebas unitarias.
+
+- El before hace una peticion a una api real. Creamos una interfaz que tenga un metodo que se llame igual a la llamada a la api y una clase que devuelva datos fake como si se hiciese la peticion real. Devuelve un Task con Task.FromResult() con la información.
+
+
+
