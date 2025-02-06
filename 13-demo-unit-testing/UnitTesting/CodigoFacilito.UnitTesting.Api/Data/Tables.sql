@@ -1,0 +1,12 @@
+﻿CREATE TABLE Employees (
+    Id UNIQUEIDENTIFIER PRIMARY KEY,
+    FirstName NVARCHAR(100),
+    LastName NVARCHAR(100),
+    Email NVARCHAR(100)
+);
+
+CREATE TABLE Products (
+    Id UNIQUEIDENTIFIER PRIMARY KEY,
+    Name NVARCHAR(100),
+    Description NVARCHAR(255)
+);
