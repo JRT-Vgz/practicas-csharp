@@ -11,19 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonRepository", "JsonRepos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8030659D-8824-4874-87A6-4B3682B0AC4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{8231EBC2-0C48-44C6-BE8A-886CE9C7CE3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{8231EBC2-0C48-44C6-BE8A-886CE9C7CE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLRepository", "XMLRepository\XMLRepository.csproj", "{85DEF9D5-CC25-4BB8-8B05-30B45F427BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLRepository", "XMLRepository\XMLRepository.csproj", "{85DEF9D5-CC25-4BB8-8B05-30B45F427BB4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HexagonalArchitecture3Layers", "HexagonalArchitecture3Layers", "{5DA35145-A317-4DD3-B67F-321A3D39B72D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainComponent", "DomainComponent\DomainComponent.csproj", "{8F318C9A-8C5A-4AD2-9B32-F6733EDDB518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainComponent", "DomainComponent\DomainComponent.csproj", "{8F318C9A-8C5A-4AD2-9B32-F6733EDDB518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationComponent", "ApplicationComponent\ApplicationComponent.csproj", "{BD82B345-E9D0-4D0B-AFDF-6DE20710259D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationComponent", "ApplicationComponent\ApplicationComponent.csproj", "{BD82B345-E9D0-4D0B-AFDF-6DE20710259D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryComponent", "Repository\RepositoryComponent.csproj", "{B48D8D94-DBA9-4350-AA0C-D4F07D6C28CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryComponent", "Repository\RepositoryComponent.csproj", "{B48D8D94-DBA9-4350-AA0C-D4F07D6C28CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppItems", "ConsoleAppItems\ConsoleAppItems.csproj", "{6C330FBA-F905-4A47-A445-2D51566A9823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppItems", "ConsoleAppItems\ConsoleAppItems.csproj", "{6C330FBA-F905-4A47-A445-2D51566A9823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIAppItems", "APIAppItems\APIAppItems.csproj", "{517FA48D-2760-4C73-9453-CEC81A60BABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapperComponent", "MapperComponent\MapperComponent.csproj", "{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{6C330FBA-F905-4A47-A445-2D51566A9823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C330FBA-F905-4A47-A445-2D51566A9823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C330FBA-F905-4A47-A445-2D51566A9823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517FA48D-2760-4C73-9453-CEC81A60BABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517FA48D-2760-4C73-9453-CEC81A60BABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517FA48D-2760-4C73-9453-CEC81A60BABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517FA48D-2760-4C73-9453-CEC81A60BABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +93,8 @@ Global
 		{BD82B345-E9D0-4D0B-AFDF-6DE20710259D} = {5DA35145-A317-4DD3-B67F-321A3D39B72D}
 		{B48D8D94-DBA9-4350-AA0C-D4F07D6C28CF} = {5DA35145-A317-4DD3-B67F-321A3D39B72D}
 		{6C330FBA-F905-4A47-A445-2D51566A9823} = {5DA35145-A317-4DD3-B67F-321A3D39B72D}
+		{517FA48D-2760-4C73-9453-CEC81A60BABF} = {5DA35145-A317-4DD3-B67F-321A3D39B72D}
+		{47DFEB5C-1B0A-4DA1-AB98-A9B8E49BA3A9} = {5DA35145-A317-4DD3-B67F-321A3D39B72D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54BF49C2-4C8E-495A-87DB-2A108DE4BCC1}

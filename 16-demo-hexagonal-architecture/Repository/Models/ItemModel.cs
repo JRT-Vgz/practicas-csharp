@@ -7,5 +7,6 @@ namespace RepositoryComponent.Models
         public string Title { get; set; }
         public bool IsCompleted { get; set; }
         public DateTime CreatedDate { get; set; }
+        public ICollection<NoteModel> Notes { get; set; }
     }
 }

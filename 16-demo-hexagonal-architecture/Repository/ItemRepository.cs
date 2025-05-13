@@ -6,7 +6,7 @@ using RepositoryComponent.Models;
 
 namespace RepositoryComponent
 {
-    public class ItemRepository : IRepository
+    public class ItemRepository : IRepository, ICompleteRepository, IGetRepository<Item>
     {
         private readonly ItemsDBContext _context;
 
@@ -34,6 +34,30 @@ namespace RepositoryComponent
 
             await _context.ItemsModel.AddAsync(itemModel);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task Complete(int id)
+        {
+            var model = await _context.ItemsModel.FindAsync(id);
+            if (model == null)
+            {
+                throw new InvalidOperationException($"No se ha encontrado el item {id}.");
+            }
+
+            model.IsCompleted = true;
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<Item?> GetByIdAsync(int id)
+        {
+            var model = await _context.ItemsModel.FindAsync(id);
+            if (model != null)
+            {
+                var item = new Item(model.Id, model.Title, model.IsCompleted);
+                return item;
+            }
+
+            return null;
         }
     }
 }
