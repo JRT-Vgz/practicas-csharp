@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Models", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Repository", "DesignPatterns.Repository\DesignPatterns.Repository.csproj", "{36C48BE5-02D8-439E-B829-02922BBF8599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsMIO", "DesignPatternsMIO\DesignPatternsMIO.csproj", "{BBEC9B15-A5EC-4FF9-A858-6D63DDBF9664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36C48BE5-02D8-439E-B829-02922BBF8599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C48BE5-02D8-439E-B829-02922BBF8599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C48BE5-02D8-439E-B829-02922BBF8599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEC9B15-A5EC-4FF9-A858-6D63DDBF9664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEC9B15-A5EC-4FF9-A858-6D63DDBF9664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEC9B15-A5EC-4FF9-A858-6D63DDBF9664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEC9B15-A5EC-4FF9-A858-6D63DDBF9664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
