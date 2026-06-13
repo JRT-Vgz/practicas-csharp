@@ -37,7 +37,7 @@ namespace DesignPatternsMIO.ObserverWeatherStationInterfaces
             => _observers.Remove(observer);
 
         public void NotifyObservers(Object dto)
-            => _observers.ForEach(o => o.Update(this, dto));
+            => _observers.ForEach(o => o.Update(dto));
 
         public void NotifyObservers()
             => NotifyObservers(null);

@@ -15,7 +15,7 @@ namespace DesignPatternsMIO.ObserverWeatherStationInterfaces.Dispositivos
             weatherDataSubject.AddObserver(this);
         }
 
-        public void Update(ISujeto sujeto, Object dto)
+        public void Update(Object dto)
         {
             if (dto == null)
             {

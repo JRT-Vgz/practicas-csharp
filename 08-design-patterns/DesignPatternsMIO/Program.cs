@@ -51,7 +51,6 @@ weatherDataSubject.NotifyObservers(weatherDataDTO);
 
 
 
-
 //*****************************************************************************************************
 // OBSERVER WEATHER STATION TEST (CON CLASE ABSTRACTA)
 /*
@@ -67,6 +66,26 @@ weatherData.SetMeasurements(35, 20, 18);
 */
 //*****************************************************************************************************
 
+
+
+//*****************************************************************************************************
+// DECORATOR COFFEE SHOP TEST
+/*
+using DesignPatternsMIO.DecoratorCoffeeShop;
+using DesignPatternsMIO.DecoratorCoffeeShop.Coffees;
+using DesignPatternsMIO.DecoratorCoffeeShop.Condiments;
+using System;
+
+// TEST: ESPRESSO CON DOBLE MOCHA Y WHIP
+AbstractBeverage beverage = new Espresso();
+beverage = new Mocha(beverage);
+beverage = new Mocha(beverage);
+beverage = new Whip(beverage);
+
+Console.WriteLine(beverage.getDescription());
+Console.WriteLine(beverage.cost());
+*/
+//*****************************************************************************************************
 
 
 

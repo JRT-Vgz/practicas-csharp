@@ -8,6 +8,6 @@ namespace DesignPatternsMIO.ObserverWeatherStationInterfaces.Interfaces
 {
     public interface IObservador
     {
-        void Update(ISujeto sujeto, Object dto);
+        void Update(Object dto);
     }
 }
